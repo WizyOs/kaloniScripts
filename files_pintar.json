@@ -1,0 +1,60 @@
+[
+    {
+        "recordType": "file",
+        "id": "6160412",
+        "values": {
+            "internalid": [
+                {
+                    "value": "6160412",
+                    "text": "6160412"
+                }
+            ],
+            "name": "12404412_KHG68648_ImagenZonasRostroFull.png",
+            "folder": [
+                {
+                    "value": "1572868",
+                    "text": "Imagenes Zonas Cabeza"
+                }
+            ],
+            "documentsize": "153",
+            "url": "/core/media/media.nl?id=6160412&c=3559763&h=707553331f2cdce1c79e",
+            "created": "10/3/2020 12:27 PM",
+            "modified": "10/3/2020 12:27 PM",
+            "filetype": [
+                {
+                    "value": "PNGIMAGE",
+                    "text": "PNG Image"
+                }
+            ]
+        }
+    },
+    {
+        "recordType": "file",
+        "id": "6160411",
+        "values": {
+            "internalid": [
+                {
+                    "value": "6160411",
+                    "text": "6160411"
+                }
+            ],
+            "name": "12404412_KHG68648_ImagenZonasCabezaFull.png",
+            "folder": [
+                {
+                    "value": "1572868",
+                    "text": "Imagenes Zonas Cabeza"
+                }
+            ],
+            "documentsize": "77",
+            "url": "/core/media/media.nl?id=6160411&c=3559763&h=ef543af8c002beb15f87",
+            "created": "10/3/2020 12:27 PM",
+            "modified": "10/3/2020 12:27 PM",
+            "filetype": [
+                {
+                    "value": "PNGIMAGE",
+                    "text": "PNG Image"
+                }
+            ]
+        }
+    }
+]
