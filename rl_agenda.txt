@@ -1,0 +1,177 @@
+/**
+
+  * @NApiVersion 2.x  
+  * @NScriptType Restlet
+  * @NModuleScope SameAccount
+
+  */
+
+define([
+  "N/record",
+  "N/log",
+  "N/file",
+  "N/email",
+  "N/search",
+  "N/ui/serverWidget",
+  "N/format",
+  "N/https",
+  "N/url",
+  "N/xml",
+  "N/render",
+  "N/runtime"
+], function(
+  record,
+  log,
+  file,
+  email,
+  search,
+  serverWidget,
+  format,
+  https,
+  url,
+  xml,
+  render,
+  runtime
+) {
+  function doGet(params) {}
+
+  function doPost(params) {
+    var objJson = JSON.parse(params);
+    var param_Sucursal = objJson.suc;
+    var param_filter_date = objJson.within;// || "today";
+    var totalEffective = 0;
+    var totalValuations = 0;
+    var totalProcedures = 0;
+    var totalRevisions = 0;
+    var customerList = [];
+    var response = [];
+    log.debug("Params", 'suc ' + param_Sucursal + ' date ' + param_filter_date);
+
+    var searchGhost = search.load({ id: "customsearch7850" });
+    log.debug('Search Ghost', searchGhost);
+
+    var searchLoad_AgendaList = search.create({
+      type: search.Type.CALENDAR_EVENT,
+      columns: [
+        {
+          name: "title"
+        },
+        {
+          name: "custevent2"
+        },
+        {
+          name: "custevent70"
+        },
+        {
+          name: "custevent1"
+        }
+      ],
+      filters: [
+        {
+          name: "custevent2",
+          operator: "anyof",
+          values: [param_Sucursal],
+          isor: false,
+          isnot: false,
+          leftparens: 0,
+          rightparens: 0
+        },
+        {
+          "name":"date",
+          "operator":"within",
+          "values":[
+             param_filter_date
+          ],
+          "isor":false,
+          "isnot":false,
+          "leftparens":0,
+          "rightparens":0
+       }
+      ]
+    });
+    var searchPreview = searchLoad_AgendaList.run().getRange({
+      start: 0,
+      end: 1000
+    });
+
+    var str_searchPreview = JSON.stringify(searchPreview);
+    var obj_searchPreview = JSON.parse(str_searchPreview);
+
+    for (var k in obj_searchPreview) {
+      var field_custevent1 = obj_searchPreview[k].values.custevent1;
+      var field_prefix = obj_searchPreview[k].values.custevent70;
+
+      if (field_prefix.length > 0) {
+        var text_prefix = obj_searchPreview[k].values.custevent70[0].text;
+        var prefix_text_prefix = text_prefix.substring(0,3);
+  
+        if (prefix_text_prefix == "VAL") {
+          totalValuations += 1;
+        }
+        if (prefix_text_prefix == "REV") {
+          totalRevisions += 1;
+        }
+        if (prefix_text_prefix == "PRO") {
+          totalProcedures += 1;
+        }
+      }
+
+      if (field_custevent1.length > 0) {
+        totalEffective += 1;
+        var idQualification = obj_searchPreview[k].values.custevent1[0].value;
+        var testQualification = obj_searchPreview[k].values.custevent1[0].text;
+      } else {
+        var idQualification = 0;
+        var testQualification = "No data";
+      }
+
+      var searchLoad_AgendaList_total = search.create({
+        type: search.Type.CALENDAR_EVENT,
+
+        filters: [
+          {
+            name: "custevent2",
+            operator: "anyof",
+            values: [param_Sucursal],
+            isor: false,
+            isnot: false,
+            leftparens: 0,
+            rightparens: 0
+          }
+        ]
+      });
+      var searchPreview_total = searchLoad_AgendaList_total.run().getRange({
+        start: 0,
+        end: 1000
+      });
+
+      customerList.push({
+        "internalid" : obj_searchPreview[k].id,
+        "title" : obj_searchPreview[k].values.title,
+        "idPrefix" : obj_searchPreview[k].values.custevent70[0].value,
+        "valuePrefix": obj_searchPreview[k].values.custevent70[0].text,
+        "idQualification" : idQualification,
+        "valueQualification": testQualification,
+      });
+    }
+
+    //log.debug('SearchPreview', searchPreview);
+
+    response = [{
+      'totalShedules': searchPreview_total.length,
+      'totalEffective': totalEffective,
+      'totalValuations': totalValuations,
+      'totalRevisions': totalRevisions,
+      'totalProcedures': totalProcedures,
+      'totalMeet': parseInt(totalValuations) + parseInt(totalRevisions) + parseInt(totalProcedures),
+      'customerList': customerList
+    }]
+
+    return response;
+  }
+
+  return {
+    get: doGet,
+    post: doPost
+  };
+});

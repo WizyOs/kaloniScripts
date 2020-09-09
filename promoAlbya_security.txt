@@ -1,0 +1,12 @@
+user Netsuite Albya -> promo@albya.com
+pass Netsuite Albya -> ALBYAALBYA123*
+
+Aplicacion -> Promo Albya
+id Aplicacion -> 6009FA17-50A1-4E2F-9ED1-8072D25975DC
+define("NETSUITE_CONSUMER_KEY", 'b873d44cd8414ac6a74d9957a79eda43426c71904d9528a3f15cfdc614450f4c');
+define("NETSUITE_CONSUMER_SECRET", '529a0628e3db12042a2ff4bb841e1a254ed5b137ae34df44d1793490c36f7aca');
+define("NETSUITE_TOKEN_ID", 'f1b2b6a899641f7f20d2ebfa7a68158e170e68ae340f567f9d58003df39a2fdc');
+define("NETSUITE_TOKEN_SECRET", '3cb19e46d1331042103847d9305605f32dd294830b4374b79e9aa831c25f2151');
+
+correo Albya -> promo@albya.com
+pass correo Albya -> Albya9657*-
