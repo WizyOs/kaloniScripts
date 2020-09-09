@@ -1,0 +1,2086 @@
+{
+    "schemaSearch":{
+       "type":"employee",
+       "id":7904,
+       "filters":[
+          {
+             "name":"subsidiary",
+             "operator":"anyof",
+             "values":[
+                "19"
+             ],
+             "isor":false,
+             "isnot":false,
+             "leftparens":0,
+             "rightparens":0
+          }
+       ],
+       "columns":[
+          {
+             "name":"entityid",
+             "label":"Nombre",
+             "type":"text",
+             "sortdir":"ASC"
+          },
+          {
+             "name":"email",
+             "label":"Correo electrónico",
+             "type":"email",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"phone",
+             "label":"Teléfono",
+             "type":"phone",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"altphone",
+             "label":"Número telefónico de la oficina",
+             "type":"phone",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"supervisor",
+             "label":"Supervisor",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"title",
+             "label":"Denominación de puesto de trabajo",
+             "type":"text",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custentity_tipo_cargo",
+             "label":"Cargo",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custentity_nslc_num_identificacion",
+             "label":"Número Identificación Tributaria",
+             "type":"text",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custentity392",
+             "label":"C. Profesional",
+             "type":"text",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custentity393",
+             "label":"Institución",
+             "type":"text",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custentity435",
+             "label":"Especialidad",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"billaddress",
+             "label":"Dirección",
+             "type":"text",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"location",
+             "label":"Ubicación",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"birthdate",
+             "label":"Fecha de nacimiento",
+             "type":"date",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custentity148",
+             "label":"Edad",
+             "type":"integer",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custentity350",
+             "label":"Género",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"address",
+             "label":"Dirección",
+             "type":"text",
+             "sortdir":"NONE"
+          }
+       ],
+       "settings":[
+ 
+       ],
+       "title":null,
+       "scriptId":"customsearch7904",
+       "isPublic":true
+    },
+    "searchResult":[
+       {
+          "recordType":"employee",
+          "id":"1184108",
+          "values":{
+             "entityid":"Adrian Manjarrez",
+             "email":"drmajarrez@prodigy.net.mx",
+             "phone":"(686) 215-4554",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"5",
+                   "text":"Cosmetología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184098",
+          "values":{
+             "entityid":"Andrey Aleksandrovich",
+             "email":"619618@gmail.com",
+             "phone":"(664) 113-1314",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"7",
+                   "text":"Miradry"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184101",
+          "values":{
+             "entityid":"Ángel Álvarez Regil",
+             "email":"draar@me.com",
+             "phone":"(915) 929-6139",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"8",
+                   "text":"Coolsculpting"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184119",
+          "values":{
+             "entityid":"Argenis Sánchez pacheco",
+             "email":"dr.aspcirugiaplastica@gmail.com",
+             "phone":"(331) 993-8253",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"3",
+                   "text":"Otorrinolaringología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1218962",
+          "values":{
+             "entityid":"Ariel Jr",
+             "email":"ariel.jr@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1220295",
+          "values":{
+             "entityid":"Brenda Edith Montero",
+             "email":"bmontero@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184113",
+          "values":{
+             "entityid":"Carlos Eduardo Sarabia Melendez",
+             "email":"caesame@yahoo.com.mx",
+             "phone":"(444) 127-0279",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"6",
+                   "text":"Bariatría"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184115",
+          "values":{
+             "entityid":"Carlos Perez",
+             "email":"identiplastica@gmail.com",
+             "phone":"(722) 438-0500",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"2",
+                   "text":"Médico estético"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184110",
+          "values":{
+             "entityid":"Carlos Raul Barceló de la isla",
+             "email":"cirplasttlastbarcelona@hotmail.com",
+             "phone":"(214) 617-1430",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"8",
+                   "text":"Coolsculpting"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184096",
+          "values":{
+             "entityid":"Cristobal Herrera leos",
+             "email":"cristobalhl@yahoo.com",
+             "phone":"448130084",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"1",
+                   "text":"Dermatología"
+                },
+                {
+                   "value":"3",
+                   "text":"Nutrición"
+                },
+                {
+                   "value":"4",
+                   "text":"Otorrinolaringología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184117",
+          "values":{
+             "entityid":"Dary ivone Gandara hernandez",
+             "email":"dragandara@gmail.com",
+             "phone":"(229) 929-9044",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"8",
+                   "text":"Coolsculpting"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184104",
+          "values":{
+             "entityid":"David Ramirez Chávez",
+             "email":"davidramirezchavez@gmail.com",
+             "phone":"(477) 252-4132",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"5",
+                   "text":"Cosmetología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1048281",
+          "values":{
+             "entityid":"Doctor Polanco",
+             "email":"dayalav@hotmail.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+                {
+                   "value":"2",
+                   "text":"Doctor"
+                }
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1218964",
+          "values":{
+             "entityid":"Doctor Guadalajara",
+             "email":"drguadalajara@albya.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1218965",
+          "values":{
+             "entityid":"Doctor Guadalajara2",
+             "email":"drguadalajara2@albya.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1218963",
+          "values":{
+             "entityid":"Doctor Tijuana",
+             "email":"drtijuana@albya.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221234",
+          "values":{
+             "entityid":"Dr. Albya Alt",
+             "email":"dralbya_alt@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"61",
+                   "text":"ALB Altavista"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221235",
+          "values":{
+             "entityid":"Dr. Albya Can",
+             "email":"dralbya_can@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"62",
+                   "text":"ALB Can-Cún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221237",
+          "values":{
+             "entityid":"Dr. Albya Chi",
+             "email":"dralbya_chi@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"63",
+                   "text":"ALB Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221238",
+          "values":{
+             "entityid":"Dr. Albya Gua",
+             "email":"dralbya_gua@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"64",
+                   "text":"ALB Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221239",
+          "values":{
+             "entityid":"Dr. Albya Mty",
+             "email":"dralbya_@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"65",
+                   "text":"ALB Monterrey"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221241",
+          "values":{
+             "entityid":"Dr. Albya Pol",
+             "email":"dralbya_pol@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"66",
+                   "text":"ALB Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221243",
+          "values":{
+             "entityid":"Dr. Albya Pue",
+             "email":"dralbya_pue@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"67",
+                   "text":"ALB Puebla"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221245",
+          "values":{
+             "entityid":"Dr. Albya Sat",
+             "email":"dralbya_sat@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"69",
+                   "text":"ALB Satélite"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221244",
+          "values":{
+             "entityid":"Dr. Albya Sfe",
+             "email":"dralbya_sfe@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"68",
+                   "text":"ALB Santa Fé"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221247",
+          "values":{
+             "entityid":"Dr. Albya Tij",
+             "email":"dralbya_tij@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"70",
+                   "text":"ALB Tijuana"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1221249",
+          "values":{
+             "entityid":"Dr. Albya Ver",
+             "email":"dralbya_ver@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"71",
+                   "text":"ALB Veracruz"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1072062",
+          "values":{
+             "entityid":"Dummy 1",
+             "email":"dummy1@albya.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1072064",
+          "values":{
+             "entityid":"Dummy 2",
+             "email":"dummy2@albya.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184112",
+          "values":{
+             "entityid":"Francisco Javier Romero aviña",
+             "email":"dr_romero_avina@hotmail.com",
+             "phone":"(868) 123-1227",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"2",
+                   "text":"Médico estético"
+                },
+                {
+                   "value":"3",
+                   "text":"Nutrición"
+                },
+                {
+                   "value":"4",
+                   "text":"Otorrinolaringología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184111",
+          "values":{
+             "entityid":"Francisco Wolberg Casado",
+             "email":"wolberg@drwolberg.com",
+             "phone":"(818) 280-7698",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"1",
+                   "text":"Dermatología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184118",
+          "values":{
+             "entityid":"Gerardo Hernández Orozco",
+             "email":"lllplasticsurgery1@gmail.com",
+             "phone":"(656) 311-3094",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"6",
+                   "text":"Bariatría"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184100",
+          "values":{
+             "entityid":"Gilberto Alfonso Medina Flores",
+             "email":"g.medinaf@gmail.com",
+             "phone":"999163936",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"6",
+                   "text":"Bariatría"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184120",
+          "values":{
+             "entityid":"Giovanni Betti",
+             "email":"drgbetti@gmail.com",
+             "phone":"(555) 059-8049",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"8",
+                   "text":"Coolsculpting"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184102",
+          "values":{
+             "entityid":"Jaime Rodriguez sierra",
+             "email":"drjaimerodriguez@hotmail.com",
+             "phone":"(818) 253-1570",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"7",
+                   "text":"Miradry"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1109520",
+          "values":{
+             "entityid":"Jose Antonio Chiu",
+             "email":"jchiu@rangu-global.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+                {
+                   "value":"2",
+                   "text":"Doctor"
+                }
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184099",
+          "values":{
+             "entityid":"José pedro Castro Aranda",
+             "email":"armoniaclinica@hotmail.com",
+             "phone":"(427) 130-5423",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"8",
+                   "text":"Coolsculpting"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184103",
+          "values":{
+             "entityid":"Josias David Hernández Amaya",
+             "email":"josiasdha@gmail.com",
+             "phone":"(729) 291-0089",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"6",
+                   "text":"Bariatría"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1219753",
+          "values":{
+             "entityid":"Juanito López",
+             "email":"usergdl@gmail.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184106",
+          "values":{
+             "entityid":"Luis Francisco García Fabián",
+             "email":"lfgfabian@hotmail.com",
+             "phone":"331218140",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"8",
+                   "text":"Coolsculpting"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184095",
+          "values":{
+             "entityid":"Mariano Duran Arizmendi",
+             "email":"duranarizmendi@hotmail.com",
+             "phone":"(331) 324-3214",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"1",
+                   "text":"Dermatología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184097",
+          "values":{
+             "entityid":"Mauro Darío reigenborn",
+             "email":"mauroreigenborn@hotmail.com",
+             "phone":"(331) 455-0148",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"1",
+                   "text":"Dermatología"
+                },
+                {
+                   "value":"3",
+                   "text":"Nutrición"
+                },
+                {
+                   "value":"4",
+                   "text":"Otorrinolaringología"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184116",
+          "values":{
+             "entityid":"Miguel Ángel Yanet Ciriany",
+             "email":"drmays@hotmail.com",
+             "phone":"50360276380",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"1",
+                   "text":"Dermatología"
+                },
+                {
+                   "value":"2",
+                   "text":"Médico estético"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184105",
+          "values":{
+             "entityid":"Napoleon Zuñiga",
+             "email":"clinicaboticelli@gmail.com",
+             "phone":"(614) 142-3816",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"7",
+                   "text":"Miradry"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184109",
+          "values":{
+             "entityid":"Nestor Baldizon recio",
+             "email":"nestorbaldizon@hotmail.com",
+             "phone":"(312) 311-9784",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"7",
+                   "text":"Miradry"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1086382",
+          "values":{
+             "entityid":"Oswaldo Humberto Guerra Millan",
+             "email":"oguerra@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+ 
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184114",
+          "values":{
+             "entityid":"Ovidio De León peña",
+             "email":"drovidiodeleon@prodigy.net.mx",
+             "phone":"(833) 245-0390",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"7",
+                   "text":"Miradry"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1133783",
+          "values":{
+             "entityid":"Promo Albya",
+             "email":"promo@albya.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+                {
+                   "value":"103204",
+                   "text":"Abraham Figueroa Reyes"
+                }
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"302850",
+          "values":{
+             "entityid":"Rodrigo Osvaldo Dominguez Mitre",
+             "email":"rdominguez@kaloni.com",
+             "phone":"",
+             "altphone":"",
+             "supervisor":[
+                {
+                   "value":"103204",
+                   "text":"Abraham Figueroa Reyes"
+                }
+             ],
+             "title":"Programador Netsuite",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+ 
+             ],
+             "billaddress":"",
+             "location":[
+ 
+             ],
+             "birthdate":"22/1/1995",
+             "custentity148":"25",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184107",
+          "values":{
+             "entityid":"Samuel Hernández perez",
+             "email":"dr_samhernandez@hotmail.com",
+             "phone":"333703802",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"6",
+                   "text":"Bariatría"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       },
+       {
+          "recordType":"employee",
+          "id":"1184094",
+          "values":{
+             "entityid":"Sergio Ochoa",
+             "email":"sergio06@hotmail.com",
+             "phone":"(331) 118-8473",
+             "altphone":"",
+             "supervisor":[
+ 
+             ],
+             "title":"",
+             "custentity_tipo_cargo":[
+ 
+             ],
+             "custentity_nslc_num_identificacion":"",
+             "custentity392":"",
+             "custentity393":"",
+             "custentity435":[
+                {
+                   "value":"1",
+                   "text":"Dermatología"
+                },
+                {
+                   "value":"2",
+                   "text":"Médico estético"
+                }
+             ],
+             "billaddress":"",
+             "location":[
+                {
+                   "value":"54",
+                   "text":"Cancún"
+                }
+             ],
+             "birthdate":"",
+             "custentity148":"",
+             "custentity350":[
+ 
+             ],
+             "address":""
+          }
+       }
+    ]
+ }

@@ -1,0 +1,358 @@
+[
+    {
+        "search": "SC-VALEFEC Guadalajara A",
+        "description": "Esta búsqueda es para las agendas efectivas de sucursal Gauadalajara",
+        "details": [
+            {
+                "type": "customer",
+                "id": 7826,
+                "filters": [
+                    {
+                        "name": "custentity78",
+                        "operator": "anyof",
+                        "values": [
+                            "@ALL@"
+                        ],
+                        "isor": false,
+                        "isnot": false,
+                        "leftparens": 0,
+                        "rightparens": 0
+                    },
+                    {
+                        "name": "custevent70",
+                        "join": "event",
+                        "operator": "anyof",
+                        "values": [
+                            "12",
+                            "17",
+                            "18",
+                            "16"
+                        ],
+                        "isor": false,
+                        "isnot": false,
+                        "leftparens": 0,
+                        "rightparens": 0
+                    },
+                    {
+                        "name": "custevent1",
+                        "join": "event",
+                        "operator": "anyof",
+                        "values": [
+                            "4"
+                        ],
+                        "isor": false,
+                        "isnot": false,
+                        "leftparens": 0,
+                        "rightparens": 0
+                    },
+                    {
+                        "name": "subsidiary",
+                        "operator": "anyof",
+                        "values": [
+                            "19"
+                        ],
+                        "isor": false,
+                        "isnot": false,
+                        "leftparens": 0,
+                        "rightparens": 0
+                    },
+                    {
+                        "name": "custentity25",
+                        "operator": "anyof",
+                        "values": [
+                            "52"
+                        ],
+                        "isor": false,
+                        "isnot": false,
+                        "leftparens": 0,
+                        "rightparens": 0
+                    }
+                ],
+                "columns": [
+                    {
+                        "name": "entityid",
+                        "summary": "COUNT",
+                        "label": "ID",
+                        "type": "text",
+                        "sortdir": "NONE"
+                    },
+                    {
+                        "name": "organizer",
+                        "join": "event",
+                        "summary": "GROUP",
+                        "label": "Organizador",
+                        "type": "select",
+                        "sortdir": "NONE"
+                    }
+                ],
+                "settings": [],
+                "title": null,
+                "scriptId": "customsearch7826",
+                "isPublic": true
+            }
+        ]
+    },
+    {
+        "sear": "Venta Guadalajara",
+        "description": "Total Ventas para la sucursal de Gaudalajara",
+        "details": [
+            [
+                {
+                   "search":{
+                      "type":"transaction",
+                      "id":7812,
+                      "filters":[
+                         {
+                            "name":"type",
+                            "operator":"anyof",
+                            "values":[
+                               "CustCred",
+                               "CustInvc"
+                            ],
+                            "isor":false,
+                            "isnot":false,
+                            "leftparens":0,
+                            "rightparens":0
+                         },
+                         {
+                            "name":"subsidiary",
+                            "operator":"anyof",
+                            "values":[
+                               "19"
+                            ],
+                            "isor":false,
+                            "isnot":false,
+                            "leftparens":0,
+                            "rightparens":0
+                         },
+                         {
+                            "name":"mainline",
+                            "operator":"is",
+                            "values":[
+                               "T"
+                            ],
+                            "isor":false,
+                            "isnot":false,
+                            "leftparens":0,
+                            "rightparens":0
+                         },
+                         {
+                            "name":"location",
+                            "operator":"anyof",
+                            "values":[
+                               "52"
+                            ],
+                            "isor":false,
+                            "isnot":false,
+                            "leftparens":0,
+                            "rightparens":0
+                         }
+                      ],
+                      "columns":[
+                         {
+                            "name":"netamountnotax",
+                            "summary":"SUM",
+                            "label":"Importe (neto de impuestos)",
+                            "type":"currency",
+                            "sortdir":"NONE"
+                         },
+                         {
+                            "name":"salesrep",
+                            "summary":"GROUP",
+                            "label":"Representante de ventas",
+                            "type":"select",
+                            "sortdir":"NONE"
+                         }
+                      ],
+                      "settings":[
+                         {
+                            "name":"consolidationtype",
+                            "value":"ACCTTYPE"
+                         }
+                      ],
+                      "title":null,
+                      "scriptId":"customsearch7812",
+                      "isPublic":true
+                   },
+                   "result":[
+                      {
+                         "values":{
+                            "SUM(netamountnotax)":".00",
+                            "GROUP(salesrep)":[
+                               {
+                                  "value":"1048281",
+                                  "text":"Doctor Polanco"
+                               }
+                            ]
+                         }
+                      },
+                      {
+                         "values":{
+                            "SUM(netamountnotax)":".00",
+                            "GROUP(salesrep)":[
+                               {
+                                  "value":"",
+                                  "text":"- None -"
+                               }
+                            ]
+                         }
+                      },
+                      {
+                         "values":{
+                            "SUM(netamountnotax)":"51724.14",
+                            "GROUP(salesrep)":[
+                               {
+                                  "value":"1109520",
+                                  "text":"Jose Antonio Chiu"
+                               }
+                            ]
+                         }
+                      }
+                   ]
+                }
+             ]
+        ]
+    },
+    {
+        "sear": "Venta de ingresos Albya",
+        "description": "Total Ventas sin filtro de sucrusal",
+        "details": [
+            {
+                "search":{
+                   "type":"transaction",
+                   "id":7332,
+                   "filters":[
+                      {
+                         "name":"type",
+                         "operator":"anyof",
+                         "values":[
+                            "CustInvc",
+                            "CustCred"
+                         ],
+                         "isor":false,
+                         "isnot":false,
+                         "leftparens":0,
+                         "rightparens":0
+                      },
+                      {
+                         "name":"status",
+                         "operator":"anyof",
+                         "values":[
+                            "@ALL@"
+                         ],
+                         "isor":false,
+                         "isnot":false,
+                         "leftparens":0,
+                         "rightparens":0
+                      },
+                      {
+                         "name":"mainline",
+                         "operator":"is",
+                         "values":[
+                            "T"
+                         ],
+                         "isor":false,
+                         "isnot":false,
+                         "leftparens":0,
+                         "rightparens":0
+                      },
+                      {
+                         "name":"subsidiary",
+                         "operator":"anyof",
+                         "values":[
+                            "19"
+                         ],
+                         "isor":false,
+                         "isnot":false,
+                         "leftparens":0,
+                         "rightparens":0
+                      },
+                      {
+                         "name":"class",
+                         "operator":"noneof",
+                         "values":[
+                            "16"
+                         ],
+                         "isor":false,
+                         "isnot":false,
+                         "leftparens":0,
+                         "rightparens":0
+                      }
+                   ],
+                   "columns":[
+                      {
+                         "name":"postingperiod",
+                         "summary":"GROUP",
+                         "label":"Período",
+                         "type":"select",
+                         "sortdir":"NONE"
+                      },
+                      {
+                         "name":"formulacurrency",
+                         "summary":"SUM",
+                         "label":"Fórmula (moneda)",
+                         "type":"currency",
+                         "formula":"{amount}-{taxtotal}",
+                         "sortdir":"NONE"
+                      }
+                   ],
+                   "settings":[
+                      {
+                         "name":"consolidationtype",
+                         "value":"ACCTTYPE"
+                      }
+                   ],
+                   "title":null,
+                   "scriptId":"customsearch7332",
+                   "isPublic":true
+                },
+                "result":[
+                   {
+                      "values":{
+                         "GROUP(postingperiod)":[
+                            {
+                               "value":"265",
+                               "text":"dic 2019"
+                            }
+                         ],
+                         "SUM(formulacurrency)":".00"
+                      }
+                   },
+                   {
+                      "values":{
+                         "GROUP(postingperiod)":[
+                            {
+                               "value":"287",
+                               "text":"feb 2020"
+                            }
+                         ],
+                         "SUM(formulacurrency)":"132068.97"
+                      }
+                   },
+                   {
+                      "values":{
+                         "GROUP(postingperiod)":[
+                            {
+                               "value":"288",
+                               "text":"mar 2020"
+                            }
+                         ],
+                         "SUM(formulacurrency)":"77586.21"
+                      }
+                   },
+                   {
+                      "values":{
+                         "GROUP(postingperiod)":[
+                            {
+                               "value":"290",
+                               "text":"abr 2020"
+                            }
+                         ],
+                         "SUM(formulacurrency)":"51724.14"
+                      }
+                   }
+                ]
+             }
+        ]
+    }
+]

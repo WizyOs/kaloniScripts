@@ -1,0 +1,630 @@
+[
+   {
+      "recordType":"estimate",
+      "id":"702123",
+      "values":{
+         "mainline":"*",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"178000.00",
+         "item.internalid":[
+
+         ],
+         "item.itemid":"",
+         "item.baseprice":"",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"processed",
+               "text":"Procesado"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":""
+      }
+   },
+   {
+      "recordType":"estimate",
+      "id":"702123",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"51724.14",
+         "item.internalid":[
+            {
+               "value":"2100",
+               "text":"2100"
+            }
+         ],
+         "item.itemid":"BLEFAROPLASTIA",
+         "item.baseprice":"51724.1379",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"processed",
+               "text":"Procesado"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"estimate",
+      "id":"702123",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"60344.83",
+         "item.internalid":[
+            {
+               "value":"2105",
+               "text":"2105"
+            }
+         ],
+         "item.itemid":"RINOPLASTIA",
+         "item.baseprice":"60344.8275",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"processed",
+               "text":"Procesado"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"estimate",
+      "id":"702123",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"41379.31",
+         "item.internalid":[
+            {
+               "value":"2203",
+               "text":"2203"
+            }
+         ],
+         "item.itemid":"LIPOSUCCION 1 AREA",
+         "item.baseprice":"41379.31034",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"processed",
+               "text":"Procesado"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"estimate",
+      "id":"702123",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"24551.72",
+         "item.internalid":[
+            {
+               "value":"6",
+               "text":"6"
+            }
+         ],
+         "item.itemid":"16% S-MX",
+         "item.baseprice":"",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"processed",
+               "text":"Procesado"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"salesorder",
+      "id":"702179",
+      "values":{
+         "mainline":"*",
+         "type":[
+            {
+               "value":"SalesOrd",
+               "text":"Orden de venta"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"178000.00",
+         "item.internalid":[
+
+         ],
+         "item.itemid":"",
+         "item.baseprice":"",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"pendingBilling",
+               "text":"Facturación pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":""
+      }
+   },
+   {
+      "recordType":"salesorder",
+      "id":"702179",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"SalesOrd",
+               "text":"Orden de venta"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"51724.14",
+         "item.internalid":[
+            {
+               "value":"2100",
+               "text":"2100"
+            }
+         ],
+         "item.itemid":"BLEFAROPLASTIA",
+         "item.baseprice":"51724.1379",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"pendingBilling",
+               "text":"Facturación pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"salesorder",
+      "id":"702179",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"SalesOrd",
+               "text":"Orden de venta"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"60344.83",
+         "item.internalid":[
+            {
+               "value":"2105",
+               "text":"2105"
+            }
+         ],
+         "item.itemid":"RINOPLASTIA",
+         "item.baseprice":"60344.8275",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"pendingBilling",
+               "text":"Facturación pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"salesorder",
+      "id":"702179",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"SalesOrd",
+               "text":"Orden de venta"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"41379.31",
+         "item.internalid":[
+            {
+               "value":"2203",
+               "text":"2203"
+            }
+         ],
+         "item.itemid":"LIPOSUCCION 1 AREA",
+         "item.baseprice":"41379.31034",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"pendingBilling",
+               "text":"Facturación pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"salesorder",
+      "id":"702179",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"SalesOrd",
+               "text":"Orden de venta"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"24551.72",
+         "item.internalid":[
+            {
+               "value":"6",
+               "text":"6"
+            }
+         ],
+         "item.itemid":"16% S-MX",
+         "item.baseprice":"",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"pendingBilling",
+               "text":"Facturación pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"ESTO ES PRUEBA NETSUITE",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"estimate",
+      "id":"702220",
+      "values":{
+         "mainline":"*",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"48000.00",
+         "item.internalid":[
+
+         ],
+         "item.itemid":"",
+         "item.baseprice":"",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"open",
+               "text":"Pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"SEGUNDA PRUEBA",
+         "quantity":""
+      }
+   },
+   {
+      "recordType":"estimate",
+      "id":"702220",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"41379.31",
+         "item.internalid":[
+            {
+               "value":"2203",
+               "text":"2203"
+            }
+         ],
+         "item.itemid":"LIPOSUCCION 1 AREA",
+         "item.baseprice":"41379.31034",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"open",
+               "text":"Pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"SEGUNDA PRUEBA",
+         "quantity":"1"
+      }
+   },
+   {
+      "recordType":"estimate",
+      "id":"702220",
+      "values":{
+         "mainline":" ",
+         "type":[
+            {
+               "value":"Estimate",
+               "text":"Estimación"
+            }
+         ],
+         "trandate":"14/4/2020",
+         "amount":"6620.69",
+         "item.internalid":[
+            {
+               "value":"6",
+               "text":"6"
+            }
+         ],
+         "item.itemid":"16% S-MX",
+         "item.baseprice":"",
+         "currency":[
+            {
+               "value":"1",
+               "text":"Pesos Mexicanos"
+            }
+         ],
+         "statusref":[
+            {
+               "value":"open",
+               "text":"Pendiente"
+            }
+         ],
+         "location":[
+            {
+               "value":"52",
+               "text":"Guadalajara"
+            }
+         ],
+         "department":[
+            {
+               "value":"36",
+               "text":"Selling expenses"
+            }
+         ],
+         "custbody_especificaciones":"SEGUNDA PRUEBA",
+         "quantity":"1"
+      }
+   }
+]

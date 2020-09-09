@@ -1,0 +1,646 @@
+[
+    {
+        "value": "",
+        "text": ""
+    },
+    {
+        "value": "-1",
+        "text": "- Nuevo -"
+    },
+    {
+        "value": "218",
+        "text": "Alejandra López"
+    },
+    {
+        "value": "107",
+        "text": "Aparatología"
+    },
+    {
+        "value": "116",
+        "text": "Camara Hiperbárica"
+    },
+    {
+        "value": "94",
+        "text": "Dr. Ulises Aguirre"
+    },
+    {
+        "value": "224",
+        "text": "Guadalajara (Albya)"
+    },
+    {
+        "value": "277",
+        "text": "InstitutoKaloni-Ania."
+    },
+    {
+        "value": "108",
+        "text": "Medical Completo"
+    },
+    {
+        "value": "220",
+        "text": "Revisiones Altavista"
+    },
+    {
+        "value": "245",
+        "text": "Revisiones Altavista Alb"
+    },
+    {
+        "value": "211",
+        "text": "Revisiones Ashheim"
+    },
+    {
+        "value": "126",
+        "text": "Revisiones Bogotá"
+    },
+    {
+        "value": "177",
+        "text": "Revisiones Cancún"
+    },
+    {
+        "value": "249",
+        "text": "Revisiones Can-Cun Alb"
+    },
+    {
+        "value": "238",
+        "text": "Revisiones Cancun (Albya)"
+    },
+    {
+        "value": "120",
+        "text": "Revisiones Chihuahua"
+    },
+    {
+        "value": "252",
+        "text": "Revisiones Chihuahua Alb"
+    },
+    {
+        "value": "239",
+        "text": "Revisiones Chihuahua (Albya)"
+    },
+    {
+        "value": "212",
+        "text": "Revisiones Dallas"
+    },
+    {
+        "value": "109",
+        "text": "Revisiones Guadalajara"
+    },
+    {
+        "value": "253",
+        "text": "Revisiones Guadalajara Alb"
+    },
+    {
+        "value": "240",
+        "text": "Revisiones Guadalajara (Albya)"
+    },
+    {
+        "value": "241",
+        "text": "Revisiones Guadalajara Arboledas"
+    },
+    {
+        "value": "129",
+        "text": "Revisiones Madrid"
+    },
+    {
+        "value": "189",
+        "text": "Revisiones Medellin"
+    },
+    {
+        "value": "99",
+        "text": "Revisiones Monterrey"
+    },
+    {
+        "value": "256",
+        "text": "Revisiones Monterrey Alb"
+    },
+    {
+        "value": "199",
+        "text": "Revisiones Polanco"
+    },
+    {
+        "value": "261",
+        "text": "Revisiones Polanco Alb"
+    },
+    {
+        "value": "237",
+        "text": "Revisiones Polanco (Albya)"
+    },
+    {
+        "value": "121",
+        "text": "Revisiones Puebla"
+    },
+    {
+        "value": "264",
+        "text": "Revisiones Puebla Alb"
+    },
+    {
+        "value": "87",
+        "text": "Revisiones Santa Fé"
+    },
+    {
+        "value": "267",
+        "text": "Revisiones Santa Fe Alb"
+    },
+    {
+        "value": "203",
+        "text": "Revisiones Santo Domingo"
+    },
+    {
+        "value": "132",
+        "text": "Revisiones São Paulo"
+    },
+    {
+        "value": "200",
+        "text": "Revisiones Satélite"
+    },
+    {
+        "value": "270",
+        "text": "Revisiones Satelite Alb"
+    },
+    {
+        "value": "100",
+        "text": "Revisiones Tijuana"
+    },
+    {
+        "value": "271",
+        "text": "Revisiones Tijuana Alb"
+    },
+    {
+        "value": "98",
+        "text": "Revisiones Veracruz"
+    },
+    {
+        "value": "276",
+        "text": "Revisiones Veracruz Alb"
+    },
+    {
+        "value": "139",
+        "text": "Revisiones Viena"
+    },
+    {
+        "value": "246",
+        "text": "Sala Altavista Alb"
+    },
+    {
+        "value": "248",
+        "text": "Sala Can-Cun Alb"
+    },
+    {
+        "value": "234",
+        "text": "Sala Cancun (Albya)"
+    },
+    {
+        "value": "251",
+        "text": "Sala Chihuahua Alb"
+    },
+    {
+        "value": "235",
+        "text": "Sala Chihuahua (Albya)"
+    },
+    {
+        "value": "254",
+        "text": "Sala Guadalajara Alb"
+    },
+    {
+        "value": "236",
+        "text": "Sala Guadalajara (Albya)"
+    },
+    {
+        "value": "257",
+        "text": "Sala Monterrey Alb"
+    },
+    {
+        "value": "260",
+        "text": "Sala Polanco Alb"
+    },
+    {
+        "value": "233",
+        "text": "Sala Polanco Albya"
+    },
+    {
+        "value": "263",
+        "text": "Sala Puebla Alb"
+    },
+    {
+        "value": "266",
+        "text": "Sala Santa Fe Alb"
+    },
+    {
+        "value": "269",
+        "text": "Sala Satelite Alb"
+    },
+    {
+        "value": "272",
+        "text": "Sala Tijuana Alb"
+    },
+    {
+        "value": "275",
+        "text": "Sala Veracruz Alb"
+    },
+    {
+        "value": "210",
+        "text": "Sala 1 Ashheim"
+    },
+    {
+        "value": "104",
+        "text": "Sala 1 Bogotá"
+    },
+    {
+        "value": "113",
+        "text": "Sala 1 Cancún"
+    },
+    {
+        "value": "115",
+        "text": "Sala 1 Chihuahua"
+    },
+    {
+        "value": "214",
+        "text": "Sala 1 Dallas"
+    },
+    {
+        "value": "85",
+        "text": "Sala 1 Guadalajara"
+    },
+    {
+        "value": "242",
+        "text": "Sala 1 Guadalajara Arboledas"
+    },
+    {
+        "value": "128",
+        "text": "Sala 1 Madrid"
+    },
+    {
+        "value": "188",
+        "text": "Sala 1 Medellin"
+    },
+    {
+        "value": "83",
+        "text": "Sala 1 Monterrey"
+    },
+    {
+        "value": "118",
+        "text": "Sala 1 Puebla"
+    },
+    {
+        "value": "81",
+        "text": "Sala 1 Santa Fé"
+    },
+    {
+        "value": "204",
+        "text": "Sala 1 Santo Domingo"
+    },
+    {
+        "value": "119",
+        "text": "Sala 1 Sao Paulo"
+    },
+    {
+        "value": "143",
+        "text": "Sala 1 Satélite"
+    },
+    {
+        "value": "82",
+        "text": "Sala 1 Tijuana"
+    },
+    {
+        "value": "84",
+        "text": "Sala 1 Veracruz"
+    },
+    {
+        "value": "138",
+        "text": "Sala 1 Viena"
+    },
+    {
+        "value": "131",
+        "text": "Valoraciones  Medellin"
+    },
+    {
+        "value": "180",
+        "text": "Valoraciones Acapulco"
+    },
+    {
+        "value": "179",
+        "text": "Valoraciones Aguascalientes"
+    },
+    {
+        "value": "88",
+        "text": "Valoraciones Altavista"
+    },
+    {
+        "value": "244",
+        "text": "Valoraciones Altavista Alb"
+    },
+    {
+        "value": "229",
+        "text": "Valoraciones Anatole (Albya)"
+    },
+    {
+        "value": "209",
+        "text": "Valoraciones Ashheim"
+    },
+    {
+        "value": "195",
+        "text": "Valoraciones Barranquilla"
+    },
+    {
+        "value": "101",
+        "text": "Valoraciones Bogotá"
+    },
+    {
+        "value": "196",
+        "text": "Valoraciones Cali"
+    },
+    {
+        "value": "193",
+        "text": "Valoraciones Campeche"
+    },
+    {
+        "value": "112",
+        "text": "Valoraciones Cancún"
+    },
+    {
+        "value": "247",
+        "text": "Valoraciones Can-Cun Alb"
+    },
+    {
+        "value": "231",
+        "text": "Valoraciones Cancún (Albya)"
+    },
+    {
+        "value": "215",
+        "text": "Valoraciones Cartagena"
+    },
+    {
+        "value": "114",
+        "text": "Valoraciones Chihuahua"
+    },
+    {
+        "value": "250",
+        "text": "Valoraciones Chihuahua Alb"
+    },
+    {
+        "value": "232",
+        "text": "Valoraciones Chihuahua (Albya)"
+    },
+    {
+        "value": "140",
+        "text": "Valoraciones Ciudad Juarez"
+    },
+    {
+        "value": "206",
+        "text": "Valoraciones Coatzacoalcos"
+    },
+    {
+        "value": "174",
+        "text": "Valoraciones Cuernavaca"
+    },
+    {
+        "value": "192",
+        "text": "Valoraciones Culiacan"
+    },
+    {
+        "value": "213",
+        "text": "Valoraciones Dallas"
+    },
+    {
+        "value": "141",
+        "text": "Valoraciones Durango"
+    },
+    {
+        "value": "227",
+        "text": "Valoraciones Garcilaso"
+    },
+    {
+        "value": "97",
+        "text": "Valoraciones Guadalajara"
+    },
+    {
+        "value": "255",
+        "text": "Valoraciones Guadalajara Alb"
+    },
+    {
+        "value": "243",
+        "text": "Valoraciones Guadalajara Arboledas"
+    },
+    {
+        "value": "187",
+        "text": "Valoraciones Guanajuato"
+    },
+    {
+        "value": "133",
+        "text": "Valoraciones Hermosillo"
+    },
+    {
+        "value": "225",
+        "text": "Valoraciones Horcajo de Santiago"
+    },
+    {
+        "value": "173",
+        "text": "Valoraciones León"
+    },
+    {
+        "value": "198",
+        "text": "Valoraciones Los Cabos"
+    },
+    {
+        "value": "127",
+        "text": "Valoraciones Madrid"
+    },
+    {
+        "value": "185",
+        "text": "Valoraciones Malaga"
+    },
+    {
+        "value": "136",
+        "text": "Valoraciones Medical Altavista"
+    },
+    {
+        "value": "190",
+        "text": "Valoraciones Medical Cancún"
+    },
+    {
+        "value": "197",
+        "text": "Valoraciones Medical Guadalajara"
+    },
+    {
+        "value": "207",
+        "text": "Valoraciones Medical Monterrey"
+    },
+    {
+        "value": "124",
+        "text": "Valoraciones Medical Polanco"
+    },
+    {
+        "value": "135",
+        "text": "Valoraciones Medical Puebla"
+    },
+    {
+        "value": "125",
+        "text": "Valoraciones Medical Satélite"
+    },
+    {
+        "value": "134",
+        "text": "Valoraciones Merida"
+    },
+    {
+        "value": "171",
+        "text": "Valoraciones Mexicali"
+    },
+    {
+        "value": "93",
+        "text": "Valoraciones Monterrey"
+    },
+    {
+        "value": "258",
+        "text": "Valoraciones Monterrey Alb"
+    },
+    {
+        "value": "172",
+        "text": "Valoraciones Morelia"
+    },
+    {
+        "value": "170",
+        "text": "Valoraciones Oaxaca"
+    },
+    {
+        "value": "176",
+        "text": "Valoraciones Obregón"
+    },
+    {
+        "value": "175",
+        "text": "Valoraciones Pachuca"
+    },
+    {
+        "value": "223",
+        "text": "Valoraciones Pereira"
+    },
+    {
+        "value": "259",
+        "text": "Valoraciones Polanco Alb"
+    },
+    {
+        "value": "226",
+        "text": "Valoraciones Polanco Anatole France"
+    },
+    {
+        "value": "106",
+        "text": "Valoraciones Polanco Homero"
+    },
+    {
+        "value": "117",
+        "text": "Valoraciones Puebla"
+    },
+    {
+        "value": "262",
+        "text": "Valoraciones Puebla Alb"
+    },
+    {
+        "value": "122",
+        "text": "Valoraciones Querétaro"
+    },
+    {
+        "value": "144",
+        "text": "Valoraciones San Diego"
+    },
+    {
+        "value": "178",
+        "text": "Valoraciones San Luis Potosí"
+    },
+    {
+        "value": "86",
+        "text": "Valoraciones Santa Fé"
+    },
+    {
+        "value": "265",
+        "text": "Valoraciones Santa Fe Alb"
+    },
+    {
+        "value": "216",
+        "text": "Valoraciones Santa Martha"
+    },
+    {
+        "value": "221",
+        "text": "Valoraciones Santiago"
+    },
+    {
+        "value": "202",
+        "text": "Valoraciones Santo Domingo"
+    },
+    {
+        "value": "111",
+        "text": "Valoraciones Sao Paulo"
+    },
+    {
+        "value": "105",
+        "text": "Valoraciones Satélite"
+    },
+    {
+        "value": "268",
+        "text": "Valoraciones Satelite Alb"
+    },
+    {
+        "value": "123",
+        "text": "Valoraciones Tabasco"
+    },
+    {
+        "value": "191",
+        "text": "Valoraciones Tampico"
+    },
+    {
+        "value": "91",
+        "text": "Valoraciones Tijuana"
+    },
+    {
+        "value": "273",
+        "text": "Valoraciones Tijuana Alb"
+    },
+    {
+        "value": "222",
+        "text": "Valoraciones Toledo"
+    },
+    {
+        "value": "181",
+        "text": "Valoraciones Toluca"
+    },
+    {
+        "value": "142",
+        "text": "Valoraciones Torreón"
+    },
+    {
+        "value": "182",
+        "text": "Valoraciones Tuxtla"
+    },
+    {
+        "value": "186",
+        "text": "Valoraciones Valencia"
+    },
+    {
+        "value": "205",
+        "text": "Valoraciones Velazquez"
+    },
+    {
+        "value": "96",
+        "text": "Valoraciones Veracruz"
+    },
+    {
+        "value": "274",
+        "text": "Valoraciones Veracruz Alb"
+    },
+    {
+        "value": "145",
+        "text": "Valoraciones Viena"
+    },
+    {
+        "value": "228",
+        "text": "Valoraciones Villa Hermosa"
+    },
+    {
+        "value": "230",
+        "text": "Valoraciones Villavicencio"
+    },
+    {
+        "value": "169",
+        "text": "Valoraciones Xalapa"
+    },
+    {
+        "value": "183",
+        "text": "Valoraciones Zacatecas"
+    }
+]

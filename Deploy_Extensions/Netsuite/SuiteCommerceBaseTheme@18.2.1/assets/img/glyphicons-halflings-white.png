@@ -1,0 +1,231 @@
+        }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "64",
+                "values": {
+                    "name": "ALB Guadalajara",
+                    "phone": "",
+                    "city": "Zapopan",
+                    "state": "JAL",
+                    "country": "MX",
+                    "address.address": "ALB Guadalajara\r\nBoulevard Puerta de Hierro Num 5150 Torre Medica C Piso 4 Plaza Corporativa\r\nZapopan JAL 45116\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "255",
+                        "text": "Valoraciones Guadalajara Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "65",
+                "values": {
+                    "name": "ALB Monterrey",
+                    "phone": "",
+                    "city": "Monterrey",
+                    "state": "NL",
+                    "country": "MX",
+                    "address.address": "ALB Monterrey\r\nCalz del Valle Alberto Santos 201 2do Piso, Local D Col Del Valle 66220\r\nMonterrey NL 66220\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "258",
+                        "text": "Valoraciones Monterrey Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "66",
+                "values": {
+                    "name": "ALB Polanco",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "CDMX (custom)",
+                    "country": "MX",
+                    "address.address": "ALB Polanco\r\nAnatole France 145, Polanco,  Polanco III Secc, Miguel Hidalgo\r\nCiudad de México  CDMX (custom) 11550\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "259",
+                        "text": "Valoraciones Polanco Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "67",
+                "values": {
+                    "name": "ALB Puebla",
+                    "phone": "",
+                    "city": "Puebla",
+                    "state": "PUE",
+                    "country": "MX",
+                    "address.address": "ALB Puebla\r\nLa Plaza Sonata Towers Boulevard  Europa No. 17 Int. L2N1 Zona Comercial Fracc. Residencial Lomas de Angelópolis San Andrés Cholula\r\nPuebla  PUE 72830\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "262",
+                        "text": "Valoraciones Puebla Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "68",
+                "values": {
+                    "name": "ALB Santa Fé",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "CDMX (custom)",
+                    "country": "MX",
+                    "address.address": "ALB Santa Fé\r\nAv Vasco De Quiroga No. 3900 Torre B Piso 4 Col. Lomas de Santa Fe Cuajimalpa de Morelos\r\nCiudad de México CDMX (custom) 05348\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "265",
+                        "text": "Valoraciones Santa Fe Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "69",
+                "values": {
+                    "name": "ALB Satélite",
+                    "phone": "",
+                    "city": "Estado de México",
+                    "state": "MEX",
+                    "country": "MX",
+                    "address.address": "ALB Satélite \r\nPafnuncio Padilla No. 10 Cd. Satélite Naucalpan de Juárez\r\nEstado de México  MEX 53100\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "268",
+                        "text": "Valoraciones Satelite Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "70",
+                "values": {
+                    "name": "ALB Tijuana",
+                    "phone": "",
+                    "city": "Tijuana",
+                    "state": "BC",
+                    "country": "MX",
+                    "address.address": "ALB Tijuana\r\nMision San Javier 10643 Via Corporativa int 101 Zona Urbana Rio\r\nTijuana BC 22010\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "273",
+                        "text": "Valoraciones Tijuana Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "71",
+                "values": {
+                    "name": "ALB Veracruz",
+                    "phone": "",
+                    "city": "Veracruz",
+                    "state": "VER",
+                    "country": "MX",
+                    "address.address": "ALB Veracruz\r\nAv. Juan Pablo II No 390 Piso 5 B Fracc Costa de Oro Boca del Rio\r\nVeracruz VER 94299\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "274",
+                        "text": "Valoraciones Veracruz Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "54",
+                "values": {
+                    "name": "Cancún",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "Cancún\r\nAdolfo L. Mateos\r\nAv. 25\r\nPoniente 134\r\nCiudad de México  \r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "231",
+                        "text": "Valoraciones Cancún (Albya)"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "53",
+                "values": {
+                    "name": "Chihuahua",
+                    "phone": "",
+                    "city": "",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "XAXX010101000\r\nChihuahua\r\nAv. 85\r\nCol. Benito Juarez\r\nCiudad de México\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "232",
+                        "text": "Valoraciones Chihuahua (Albya)"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "52",
+                "values": {
+                    "name": "Guadalajara",
+                    "phone": "",
+                    "city": "",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "Guadalajara\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "255",
+                        "text": "Valoraciones Guadalajara Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "60",
+                "values": {
+                    "name": "Guadalajara Arboledas Uno",
+                    "phone": "",
+                    "city": "ZAPOPAN",
+                    "state": "JAL",
+                    "country": "MX",
+                    "address.address": "Guadalajara Arboledas Uno\r\nCARNERO 53951\r\nCOL. ARBOLEDAS\r\nZAPOPAN JAL 45070\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "243",
+                        "text": "Valoraciones Guadalajara Arboledas"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "57",
+                "values": {
+                    "name": "Polanco",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "Polanco\r\nAnatole France 145\r\nPolanco\r\nPolanco III Secc, Miguel Hidalgo\r\nCiudad de México  11550\r\nMéxico"
+                },
+     

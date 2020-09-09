@@ -1,0 +1,778 @@
+[
+    {
+        "idTransaction": "710498",
+        "typeTransaction": "salesorder",
+        "trandate": "22/5/2020",
+        "amount": "694000.00",
+        "currency": "Pesos Mexicanos",
+        "textStatus": "Facturación pendiente",
+        "idDepartment": "36",
+        "notes": "Prueba final",
+        "parentIdTransaction": "710497",
+        "products": [
+            {
+                "idTransaction": "710498",
+                "item": "2105",
+                "itemText": "RINOPLASTIA",
+                "price": "60344.8275",
+                "quantity": "1"
+            },
+            {
+                "idTransaction": "710498",
+                "item": "2100",
+                "itemText": "BLEFAROPLASTIA",
+                "price": "51724.1379",
+                "quantity": "2"
+            },
+            {
+                "idTransaction": "710498",
+                "item": "2203",
+                "itemText": "LIPOSUCCION 1 AREA",
+                "price": "41379.31034",
+                "quantity": "3"
+            },
+            {
+                "idTransaction": "710498",
+                "item": "2207",
+                "itemText": "MAMOPLASTIA DE AUMENTO (AUMENTO DE BUSTO)",
+                "price": "77586.2069",
+                "quantity": "4"
+            }
+        ]
+    },
+    {
+        "idTransaction": "710767",
+        "typeTransaction": "invoice",
+        "trandate": "22/5/2020",
+        "amount": "60000.00",
+        "currency": "Pesos Mexicanos",
+        "textStatus": "Pendiente",
+        "idDepartment": "35",
+        "notes": "dfs",
+        "parentIdTransaction": "710126",
+        "products": [
+            {
+                "idTransaction": "710767",
+                "item": "2100",
+                "itemText": "BLEFAROPLASTIA",
+                "price": "51724.1379",
+                "quantity": "1"
+            }
+        ],
+        "detailsInvoice": [
+            {
+                "idInvoice": "771166",
+                "numInvoice": "ONL-115455",
+                "rfcCustomer": "APPE940526HDF",
+                "addressCustomer": "Calle 13 num 69, Culombia",
+                "nameCustomer": "Pepita Pepon",
+                "dateInvoice": "22/12/2020",
+                "amountPaid": "51724.1379",
+                "UUID": "87987897-87987asd987d-908asd9as-8798a7sda",
+                "doctorProcedure": "Terapeuta",
+                "billAddress": "Pepita Pepon Calle 13 num 69, Culombia",
+                "salesrep": "Jose Antonio Chiu",
+                "paymentMethod": "Tarjetas de crédito"
+            }
+        ]
+    },
+    {
+        "idTransaction": "709970",
+        "typeTransaction": "estimate",
+        "trandate": "21/5/2020",
+        "amount": "60000.00",
+        "currency": "Pesos Mexicanos",
+        "textStatus": "Procesado",
+        "idDepartment": "36",
+        "notes": "dfs",
+        "parentIdTransaction": "",
+        "products": [
+            {
+                "idTransaction": "709970",
+                "item": "2100",
+                "itemText": "BLEFAROPLASTIA",
+                "price": "51724.1379",
+                "quantity": "1"
+            }
+        ]
+    },
+    {
+        "typeTransaction": "SalesOrd",
+        "idEstimate": "709971",
+        "idCustomer": "1201442",
+        "status": "51",
+        "startDate": "undefined/undefined/",
+        "location": "",
+        "department": "36",
+        "notes": "",
+        "products": [
+            {
+                "idTransaction": "709971",
+                "item": "2105",
+                "itemText": "RINOPLASTIA",
+                "price": "60344.8275",
+                "quantity": "1"
+            },
+            {
+                "idTransaction": "709971",
+                "item": "2100",
+                "itemText": "BLEFAROPLASTIA",
+                "price": "51724.1379",
+                "quantity": "2"
+            },
+            {
+                "idTransaction": "709971",
+                "item": "2203",
+                "itemText": "LIPOSUCCION 1 AREA",
+                "price": "41379.31034",
+                "quantity": "3"
+            }
+        ]
+    },
+    {
+        "typeTransaction": "invoice",
+        "idSalesOrd": "709971",
+        "rfcCustomer": "APPE940526HDF",
+        "idCustomer": "1201442",
+        "dateInvoice": "22/12/2020",
+        "amountPaid": "51724.1379",
+        "doctorProcedure": "Terapeuta",
+        "paymentMethod": "3",
+        "billAddress": "calle 5 bla bla...",
+        "nameCustomer": "Pepita Pepona",
+        "location": "52"
+    },
+    {
+        "doctorProcedure - Doctor Procedimiento": "custbody15",
+        "location - Ubicación": "location",
+        "paymentMethod - Metodo de Pago (SAT)": "custbody_cfdi_metpago_sat",
+        "Numero de Meses": "custbody_nro_meses",
+        "Tipo de Documento": "custbody_tipodoc_cxc",
+        "Orden de Venta": "custbody_orden_de_venta",
+        "Estado de facturación": "custbody154"
+    },
+    {
+        "serviceOffered": "coolsculpting",
+        "rangeStartDate": "3/6/2020",
+        "rangeEndDate": "9/6/2020",
+        "rangeStartTime": "10:30 AM",
+        "rangeEndTime": "1:30 PM",
+        "city": "Ciudad de México"
+    },
+    {
+        "metodo de pago": [
+            {
+                "value": "9",
+                "text": "Cheques"
+            },
+            {
+                "value": "1",
+                "text": "Efectivo"
+            },
+            {
+                "value": "15",
+                "text": "Metódo de pago externo"
+            },
+            {
+                "value": "5",
+                "text": "Otros"
+            },
+            {
+                "value": "8",
+                "text": "Tarjetas de crédito"
+            },
+            {
+                "value": "4",
+                "text": "Tarjetas de débito"
+            },
+            {
+                "value": "3",
+                "text": "Transferencias electrónicas"
+            },
+            {
+                "value": "14",
+                "text": "Vta.Online"
+            }
+        ]
+    },
+    {
+        "resourcesByLocation": [
+            {
+                "recordType": "location",
+                "id": "61",
+                "values": {
+                    "name": "ALB Altavista",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "CDMX (custom)",
+                    "country": "MX",
+                    "address.address": "ALB Altavista\r\nAltavista No. 160\r\nCol. San Angel-Inn\r\nAlcaldía Álvaro Obregón\r\nCiudad de México CDMX (custom) 01000\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "244",
+                        "text": "Valoraciones Altavista Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "62",
+                "values": {
+                    "name": "ALB Can-Cún",
+                    "phone": "",
+                    "city": "Cancún",
+                    "state": "QROO",
+                    "country": "MX",
+                    "address.address": "ALB Can-Cún \r\nAv,Sayil Lote 2, Manzana 5, Supermanzana 6, Locales 307 y 308\r\nMunicipio de Benito Juárez QROO\r\nCancún  QROO Municipio de Benito Juárez QROO\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "247",
+                        "text": "Valoraciones Can-Cun Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "63",
+                "values": {
+                    "name": "ALB Chihuahua",
+                    "phone": "",
+                    "city": "Chihuahua",
+                    "state": "CHIH",
+                    "country": "MX",
+                    "address.address": "ALB Chihuahua\r\nCalle Vía Trentino No. 5710 1er Piso Local 106 Edificio Vetro Plaza Citadela Desarrollo El Saucito Sector 49\r\nChihuahua CHIH 31115\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "250",
+                        "text": "Valoraciones Chihuahua Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "64",
+                "values": {
+                    "name": "ALB Guadalajara",
+                    "phone": "",
+                    "city": "Zapopan",
+                    "state": "JAL",
+                    "country": "MX",
+                    "address.address": "ALB Guadalajara\r\nBoulevard Puerta de Hierro Num 5150 Torre Medica C Piso 4 Plaza Corporativa\r\nZapopan JAL 45116\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "255",
+                        "text": "Valoraciones Guadalajara Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "65",
+                "values": {
+                    "name": "ALB Monterrey",
+                    "phone": "",
+                    "city": "Monterrey",
+                    "state": "NL",
+                    "country": "MX",
+                    "address.address": "ALB Monterrey\r\nCalz del Valle Alberto Santos 201 2do Piso, Local D Col Del Valle 66220\r\nMonterrey NL 66220\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "258",
+                        "text": "Valoraciones Monterrey Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "66",
+                "values": {
+                    "name": "ALB Polanco",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "CDMX (custom)",
+                    "country": "MX",
+                    "address.address": "ALB Polanco\r\nAnatole France 145, Polanco,  Polanco III Secc, Miguel Hidalgo\r\nCiudad de México  CDMX (custom) 11550\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "259",
+                        "text": "Valoraciones Polanco Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "67",
+                "values": {
+                    "name": "ALB Puebla",
+                    "phone": "",
+                    "city": "Puebla",
+                    "state": "PUE",
+                    "country": "MX",
+                    "address.address": "ALB Puebla\r\nLa Plaza Sonata Towers Boulevard  Europa No. 17 Int. L2N1 Zona Comercial Fracc. Residencial Lomas de Angelópolis San Andrés Cholula\r\nPuebla  PUE 72830\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "262",
+                        "text": "Valoraciones Puebla Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "68",
+                "values": {
+                    "name": "ALB Santa Fé",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "CDMX (custom)",
+                    "country": "MX",
+                    "address.address": "ALB Santa Fé\r\nAv Vasco De Quiroga No. 3900 Torre B Piso 4 Col. Lomas de Santa Fe Cuajimalpa de Morelos\r\nCiudad de México CDMX (custom) 05348\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "265",
+                        "text": "Valoraciones Santa Fe Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "69",
+                "values": {
+                    "name": "ALB Satélite",
+                    "phone": "",
+                    "city": "Estado de México",
+                    "state": "MEX",
+                    "country": "MX",
+                    "address.address": "ALB Satélite \r\nPafnuncio Padilla No. 10 Cd. Satélite Naucalpan de Juárez\r\nEstado de México  MEX 53100\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "268",
+                        "text": "Valoraciones Satelite Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "70",
+                "values": {
+                    "name": "ALB Tijuana",
+                    "phone": "",
+                    "city": "Tijuana",
+                    "state": "BC",
+                    "country": "MX",
+                    "address.address": "ALB Tijuana\r\nMision San Javier 10643 Via Corporativa int 101 Zona Urbana Rio\r\nTijuana BC 22010\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "273",
+                        "text": "Valoraciones Tijuana Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "71",
+                "values": {
+                    "name": "ALB Veracruz",
+                    "phone": "",
+                    "city": "Veracruz",
+                    "state": "VER",
+                    "country": "MX",
+                    "address.address": "ALB Veracruz\r\nAv. Juan Pablo II No 390 Piso 5 B Fracc Costa de Oro Boca del Rio\r\nVeracruz VER 94299\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "274",
+                        "text": "Valoraciones Veracruz Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "54",
+                "values": {
+                    "name": "Cancún",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "Cancún\r\nAdolfo L. Mateos\r\nAv. 25\r\nPoniente 134\r\nCiudad de México  \r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "231",
+                        "text": "Valoraciones Cancún (Albya)"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "53",
+                "values": {
+                    "name": "Chihuahua",
+                    "phone": "",
+                    "city": "",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "XAXX010101000\r\nChihuahua\r\nAv. 85\r\nCol. Benito Juarez\r\nCiudad de México\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "232",
+                        "text": "Valoraciones Chihuahua (Albya)"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "52",
+                "values": {
+                    "name": "Guadalajara",
+                    "phone": "",
+                    "city": "",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "Guadalajara\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "255",
+                        "text": "Valoraciones Guadalajara Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "60",
+                "values": {
+                    "name": "Guadalajara Arboledas Uno",
+                    "phone": "",
+                    "city": "ZAPOPAN",
+                    "state": "JAL",
+                    "country": "MX",
+                    "address.address": "Guadalajara Arboledas Uno\r\nCARNERO 53951\r\nCOL. ARBOLEDAS\r\nZAPOPAN JAL 45070\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "243",
+                        "text": "Valoraciones Guadalajara Arboledas"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "57",
+                "values": {
+                    "name": "Polanco",
+                    "phone": "",
+                    "city": "Ciudad de México",
+                    "state": "",
+                    "country": "MX",
+                    "address.address": "Polanco\r\nAnatole France 145\r\nPolanco\r\nPolanco III Secc, Miguel Hidalgo\r\nCiudad de México  11550\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "226",
+                        "text": "Valoraciones Polanco Anatole France"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "branchName": "Guadalajara",
+        "emailCustomer": "afr.figueroa@gmail.com",
+        "firstName": "Prueba Postman 1",
+        "secondName": "Abraham FR",
+        "phone": "5547718413",
+        "startDate": "5/6/2020",
+        "startTime": "0100",
+        "areaOfIinterest": "mamoplastia",
+        "comments": "quiero un doctor confiable",
+        "checkNoticePrivacy": "T"
+    },
+    {
+        "idTransaction": "715179",
+        "tranid": "AGDL-00009",
+        "typeTransaction": "invoice",
+        "trandate": "4/6/2020",
+        "amount": "70000.00",
+        "currency": "Pesos Mexicanos",
+        "textStatus": "Pendiente",
+        "location": "52",
+        "locationText": "Guadalajara",
+        "idDepartment": "36",
+        "notes": "Prueba Mitre 1",
+        "parentIdTransaction": "715278",
+        "parentIdTransactionText": "Orden de venta #100710",
+        "products": [
+            {
+                "idTransaction": "715179",
+                "item": "2105",
+                "itemText": "RINOPLASTIA",
+                "price": "60344.8275",
+                "quantity": "1"
+            }
+        ],
+        "detailsInvoice": [
+            {
+                "idInvoice": "715179",
+                "numInvoice": "AGDL-00009",
+                "status": "Pendiente",
+                "rfcCustomer": "",
+                "addressCustomer": "Abraham Figueroa\nDOMICILIO CONOCIDO S/N\nDOMICILIO CONOCIDO\nCDMX CDMX (custom) 00000\nMexico",
+                "nameCustomer": "HG-10407962 Prueba Postman 1 Abraham FR",
+                "dateInvoice": "2020-6-4",
+                "amountPaid": 0,
+                "UUID": "",
+                "doctorProcedure": "20",
+                "doctorProcedureName": "Terapeuta",
+                "billaddress": "Abraham Figueroa\nDOMICILIO CONOCIDO S/N\nDOMICILIO CONOCIDO\nCDMX CDMX (custom) 00000\nMexico",
+                "salesrep": "Jose  Antonio Chiu",
+                "paymentMethod": "8",
+                "paymentMethodText": "Tarjetas de crédito"
+            }
+        ]
+    },
+    {
+        "idCustomer": "1109520",
+        "firstname": "Jose Antonio",
+        "lastname": "Chiu",
+        "institute": "LaSalle",
+        "dateOfBirth": "15/12/1970",
+        "gender": "{value:1,text:Masculino},{value:2,text:Femenino},{value:3,text:Sin diferenciar},{value:4,text:Se ignora}",
+        "phone": "5548487878",
+        "speciality": "Warning doctor",
+        "professionalLicense": "a-8984547",
+        "rfc": "CORM840521bg9",
+        "review": "Bla bla bla bla bla bla bla",
+        "pass": "jchiu78554",
+        "typeChange": "pass,perfil",
+    },
+    {
+        "typeProcedure": "param_typeProcedure",
+        "internalid": "idProcedure",
+        "dateprocedure": "dateprocedure",
+        "casenumber": "field_case_procedure_casenumber",
+        "values": [
+            "{ ..... .... }"
+        ],
+        "sublists": [
+            {
+                "medicalIndications": [
+                    {
+                        "date": "1/6/2020",
+                        "time": "1:00 PM",
+                        "indications": "bla bla bla bla bla bla bla bla bla bla",
+                        "responsable": "tu"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "idCustomer": "1201442",
+        "idProcedure": "12737727",
+        "idEmpleado": "1109520",
+        "idSucursal": "52",
+        "emailEmpleado": "jchiu@rangu-global.com",
+        "emailCliente": "afr.figueroa@gmail.com",
+        "typeProcedure": "qx",
+        "custevent269": "",
+        "startdate": "28/04/2020",
+        "starttime": "1626",
+        "custevent550": "T",
+        "custevent551": "T",
+        "custevent552": "T",
+        "custevent553": "T",
+        "custevent556": "T",
+        "custevent557": "T",
+        "custevent722": "T",
+        "custevent560": "T",
+        "custevent725": "T",
+        "custevent726": "T",
+        "custevent727": "T",
+        "custevent723": "",
+        "custevent724": "",
+        "custevent728": "",
+        "custevent729": "",
+        "custevent565": "F",
+        "custevent564": "F",
+        "custevent730": "F",
+        "custevent567": "F",
+        "custevent840": "",
+        "custevent841": "",
+        "custevent842": "",
+        "custevent843": "",
+        "custevent844": "",
+        "custevent845": "",
+        "custevent846": "",
+        "custevent847": "",
+        "custevent848": "",
+        "custevent849": "",
+        "custevent850": "",
+        "custevent851": "",
+        "custevent852": "",
+        "custevent853": "",
+        "custevent854": "",
+        "custevent731": "F",
+        "custevent732": "F",
+        "custevent733": "F",
+        "custevent734": "F",
+        "custevent735": "",
+        "custevent736": "",
+        "custevent737": "",
+        "custevent738": "",
+        "custevent739": "",
+        "custevent740": "",
+        "custevent741": "",
+        "custevent742": "",
+        "custevent743": "",
+        "custevent744": "",
+        "custevent745": "",
+        "custevent746": "",
+        "custevent747": "",
+        "custevent748": "",
+        "custevent749": "",
+        "custevent750": "",
+        "custevent751": "",
+        "custevent752": "",
+        "custevent753": "",
+        "custevent754": "",
+        "custevent755": "",
+        "custevent756": "",
+        "custevent757": "",
+        "custevent758": "",
+        "custevent759": "",
+        "custevent760": "",
+        "custevent761": "",
+        "custevent762": "",
+        "custevent763": "",
+        "custevent764": "",
+        "custevent765": "",
+        "custevent766": "",
+        "custevent767": "",
+        "custevent768": "",
+        "custevent769": "",
+        "custevent770": "",
+        "custevent771": "",
+        "custevent772": "",
+        "custevent773": "",
+        "custevent774": "",
+        "custevent775": "",
+        "custevent776": "",
+        "custevent777": "",
+        "custevent778": "",
+        "custevent779": "",
+        "custevent780": "",
+        "custevent781": "",
+        "custevent782": "",
+        "custevent783": "",
+        "custevent784": "",
+        "custevent792": "",
+        "custevent793": "",
+        "custevent785": "",
+        "custevent786": "",
+        "custevent787": "",
+        "custevent788": "",
+        "custevent789": "",
+        "custevent790": "",
+        "custevent791": "",
+        "custevent796": "",
+        "custevent797": "",
+        "custevent798": "",
+        "custevent799": "",
+        "custevent663": "F",
+        "custevent664": "F",
+        "custevent665": "F",
+        "custevent666": "F",
+        "custevent667": "F",
+        "custevent668": "F",
+        "custevent669": "F",
+        "custevent670": "F",
+        "custevent671": "",
+        "custevent672": "",
+        "custevent673": "",
+        "custevent674": "",
+        "custevent675": "",
+        "custevent676": "",
+        "custevent677": "",
+        "custevent681": "",
+        "custevent678": "",
+        "custevent679": "",
+        "custevent685": "",
+        "custevent686": "",
+        "custevent687": "",
+        "custevent655": "",
+        "custevent656": "",
+        "custevent657": "",
+        "custevent658": "",
+        "custevent659": "",
+        "custevent660": "",
+        "custevent661": "",
+        "custevent576": "",
+        "custevent577": "",
+        "custevent662": "",
+        "custevent794": "",
+        "custevent795": "",
+        "custevent570": "",
+        "custevent573": "",
+        "custevent574": "",
+        "custevent572": "",
+        "custevent575": "",
+        "custevent688": "",
+        "custevent689": "",
+        "custevent690": "",
+        "custevent694": "",
+        "custevent691": "",
+        "custevent692": "",
+        "custevent693": "",
+        "custevent695": "",
+        "custevent696": "",
+        "custevent697": "",
+        "custevent698": "",
+        "custevent699": "",
+        "custevent700": "",
+        "custevent701": "",
+        "custevent702": "",
+        "custevent703": "",
+        "custevent704": "",
+        "custevent705": "",
+        "custevent706": "",
+        "custevent707": "",
+        "custevent708": "",
+        "custevent709": "",
+        "custevent710": "F",
+        "custevent711": "F",
+        "custevent712": "F",
+        "custevent713": "F",
+        "custevent714": "F",
+        "custevent715": "F",
+        "custevent716": "F",
+        "custevent717": "F",
+        "custevent718": "F",
+        "custevent719": "",
+        "custevent720": "",
+        "custevent721": "",
+        "sublists": [
+            {
+                "medicalIndications": [
+                    {
+                        "date": "1/6/2020",
+                        "time": "1:00 PM",
+                        "indications": "bla bla bla bla bla bla bla bla bla bla",
+                        "responsable": "tu"
+                    }
+                ]
+            }
+        ]
+    }
+]

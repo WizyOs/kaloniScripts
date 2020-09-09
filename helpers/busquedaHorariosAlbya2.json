@@ -1,0 +1,548 @@
+{
+    "schemaSearch":{
+       "type":"calendarevent",
+       "id":7854,
+       "filters":[
+          {
+             "name":"custevent70",
+             "operator":"anyof",
+             "values":[
+                "11",
+                "1",
+                "8",
+                "12"
+             ],
+             "isor":false,
+             "isnot":false,
+             "leftparens":0,
+             "rightparens":0
+          },
+          {
+             "name":"date",
+             "operator":"onorafter",
+             "values":[
+                "startofthismonth"
+             ],
+             "isor":false,
+             "isnot":false,
+             "leftparens":0,
+             "rightparens":0
+          },
+          {
+             "name":"subsidiary",
+             "join":"attendeecustomer",
+             "operator":"anyof",
+             "values":[
+                "19"
+             ],
+             "isor":false,
+             "isnot":false,
+             "leftparens":0,
+             "rightparens":0
+          }
+       ],
+       "columns":[
+          {
+             "name":"title",
+             "label":"Evento",
+             "type":"text",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"startdate",
+             "label":"Fecha de inicio",
+             "type":"date",
+             "sortdir":"DESC"
+          },
+          {
+             "name":"starttime",
+             "label":"Hora de inicio",
+             "type":"timeofday",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"endtime",
+             "label":"Hora de finalización",
+             "type":"timeofday",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"owner",
+             "label":"Propietario",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"status",
+             "label":"Estado",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"markdone",
+             "label":"Marcar",
+             "type":"text",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custevent2",
+             "label":"Sucursal",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"custevent70",
+             "label":"Prefijo Evento",
+             "type":"select",
+             "sortdir":"NONE"
+          },
+          {
+             "name":"altname",
+             "join":"attendee",
+             "label":"Nombre",
+             "type":"text",
+             "sortdir":"NONE"
+          }
+       ],
+       "settings":[
+ 
+       ],
+       "title":null,
+       "scriptId":"customsearch7854",
+       "isPublic":true
+    },
+    "searchResult":[
+       {
+          "recordType":"calendarevent",
+          "id":"12678771",
+          "values":{
+             "title":"HG-PUEBA de evento",
+             "startdate":"30/5/2020",
+             "starttime":"5:00 PM",
+             "endtime":"5:30 PM",
+             "owner":[
+                {
+                   "value":"637079",
+                   "text":"Alberto Colin Eusebio"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"Tester Web Testing"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12682055",
+          "values":{
+             "title":"HG-PUEBA de evento",
+             "startdate":"30/5/2020",
+             "starttime":"5:00 PM",
+             "endtime":"5:30 PM",
+             "owner":[
+                {
+                   "value":"637079",
+                   "text":"Alberto Colin Eusebio"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"Prueba Paciente Test Hoy"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12682056",
+          "values":{
+             "title":"HG-PUEBA de evento",
+             "startdate":"30/5/2020",
+             "starttime":"5:00 PM",
+             "endtime":"5:30 PM",
+             "owner":[
+                {
+                   "value":"637079",
+                   "text":"Alberto Colin Eusebio"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"53",
+                   "text":"Chihuahua"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"Prueba Paciente Test Hoy"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12788735",
+          "values":{
+             "title":"VAL_HG-10409846 / no se",
+             "startdate":"19/5/2020",
+             "starttime":"9:00 AM",
+             "endtime":"9:30 AM",
+             "owner":[
+                {
+                   "value":"1109520",
+                   "text":"Jose Antonio Chiu"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"prueba test"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12788734",
+          "values":{
+             "title":"VAL_HG-10409845 / quien sabe",
+             "startdate":"18/5/2020",
+             "starttime":"10:00 AM",
+             "endtime":"10:30 AM",
+             "owner":[
+                {
+                   "value":"1109520",
+                   "text":"Jose Antonio Chiu"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"Form Emp"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12755044",
+          "values":{
+             "title":"VAL_HG-10409250 / probando...",
+             "startdate":"18/5/2020",
+             "starttime":"10:00 AM",
+             "endtime":"10:30 AM",
+             "owner":[
+                {
+                   "value":"1133783",
+                   "text":"Promo Albya"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"Test Form"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12708344",
+          "values":{
+             "title":"PRO_HG-10408383 / NOSE*",
+             "startdate":"16/5/2020",
+             "starttime":"11:30 AM",
+             "endtime":"12:00 PM",
+             "owner":[
+                {
+                   "value":"1133783",
+                   "text":"Promo Albya"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CANCELLED",
+                   "text":"Cancelado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"1",
+                   "text":"PROCEDIMIENTO"
+                }
+             ],
+             "attendee.altname":"nose1 nose2"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12778874",
+          "values":{
+             "title":"VAL_prueba31@prueba.com / Rinoplastia",
+             "startdate":"14/5/2020",
+             "starttime":"5:00 PM",
+             "endtime":"5:30 PM",
+             "owner":[
+                {
+                   "value":"1133783",
+                   "text":"Promo Albya"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"57",
+                   "text":"Polanco"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"prueba21 prueba21"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12695743",
+          "values":{
+             "title":"HG-10408121 / Dermatología",
+             "startdate":"2/5/2020",
+             "starttime":"9:00 AM",
+             "endtime":"9:30 AM",
+             "owner":[
+                {
+                   "value":"1133783",
+                   "text":"Promo Albya"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"1",
+                   "text":"PROCEDIMIENTO"
+                }
+             ],
+             "attendee.altname":"Ricardo Millán"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12695741",
+          "values":{
+             "title":"HG-10408121 / Bariatría",
+             "startdate":"1/5/2020",
+             "starttime":"9:00 AM",
+             "endtime":"9:30 AM",
+             "owner":[
+                {
+                   "value":"1133783",
+                   "text":"Promo Albya"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CANCELLED",
+                   "text":"Cancelado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"1",
+                   "text":"PROCEDIMIENTO"
+                }
+             ],
+             "attendee.altname":"Ricardo Millán"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12695742",
+          "values":{
+             "title":"HG-10408121 / Cosmetología",
+             "startdate":"1/5/2020",
+             "starttime":"9:00 AM",
+             "endtime":"9:30 AM",
+             "owner":[
+                {
+                   "value":"1133783",
+                   "text":"Promo Albya"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"8",
+                   "text":"REV"
+                }
+             ],
+             "attendee.altname":"Ricardo Millán"
+          }
+       },
+       {
+          "recordType":"calendarevent",
+          "id":"12695637",
+          "values":{
+             "title":"HG-10408121 / Dermatología",
+             "startdate":"1/5/2020",
+             "starttime":"9:00 AM",
+             "endtime":"9:30 AM",
+             "owner":[
+                {
+                   "value":"1133783",
+                   "text":"Promo Albya"
+                }
+             ],
+             "status":[
+                {
+                   "value":"CONFIRMED",
+                   "text":"Confirmado"
+                }
+             ],
+             "markdone":"Completado",
+             "custevent2":[
+                {
+                   "value":"52",
+                   "text":"Guadalajara"
+                }
+             ],
+             "custevent70":[
+                {
+                   "value":"12",
+                   "text":"VALORACIÓN"
+                }
+             ],
+             "attendee.altname":"Ricardo Millán"
+          }
+       }
+    ]
+ }

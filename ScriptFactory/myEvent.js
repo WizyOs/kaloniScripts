@@ -1,0 +1,6 @@
+function EventBeforeLoad(){
+//alert("hola");
+}
+
+
+

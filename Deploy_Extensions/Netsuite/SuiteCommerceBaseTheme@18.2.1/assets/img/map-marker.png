@@ -1,0 +1,35 @@
+        }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "64",
+                "values": {
+                    "name": "ALB Guadalajara",
+                    "phone": "",
+                    "city": "Zapopan",
+                    "state": "JAL",
+                    "country": "MX",
+                    "address.address": "ALB Guadalajara\r\nBoulevard Puerta de Hierro Num 5150 Torre Medica C Piso 4 Plaza Corporativa\r\nZapopan JAL 45116\r\nMéxico"
+                },
+                "resources": [
+                    {
+                        "value": "255",
+                        "text": "Valoraciones Guadalajara Alb"
+                    }
+                ]
+            },
+            {
+                "recordType": "location",
+                "id": "65",
+                "values": {
+                    "name": "ALB Monterrey",
+                    "phone": "",
+                    "city": "Monterrey",
+                    "state": "NL",
+                    "country": "MX",
+                    "address.address": "ALB Monterrey\r\nCalz del Valle Alberto Santos 201 2do Piso, Local D Col Del Valle 66220\r\nMonterrey NL 66220\r\nMéxico"
+                },
+                "resources": [
+                    {
+                       

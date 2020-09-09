@@ -1,0 +1,600 @@
+ILO" 
+            var param_custevent667 = objJson.custevent667; // Check // "ANSIOSO" 
+            var param_custevent668 = objJson.custevent668; // Check // "LETÁRGICO" 
+            var param_custevent669 = objJson.custevent669; // Check // "NERVIOSO" 
+            var param_custevent670 = objJson.custevent670; // Check // "OTRO" 
+            var param_custevent671 = objJson.custevent671; // Lista // "AYUNO" 
+            var param_custevent672 = objJson.custevent672; // Lista // "TRICOTOMÍA" 
+            var param_custevent673 = objJson.custevent673; // Lista // "REGIÓN" 
+            var param_custevent674 = objJson.custevent674; // text // "ALERGÍAS" 
+            var param_custevent675 = objJson.custevent675; // text // "PRÓTESIS" 
+            var param_custevent676 = objJson.custevent676; // text // "ALAJAS" 
+            var param_custevent677 = objJson.custevent677; // text // "ROPA INTERIOR" 
+            var param_custevent681 = objJson.custevent681; // Lista // "AFECCIONES DE LA PIEL" 
+            var param_custevent678 = objJson.custevent678; // text // "COLORACIÓN Y ESTADO DE HIDRATACIÓN DE MUCOSAS" 
+            var param_custevent679 = objJson.custevent679; // text // "COLORACIÓN Y ESTADO DE HIDRATACIÓN DE TEGUMENTOS" 
+            var param_custevent685 = objJson.custevent685; // text // "VENOCLISIS" 
+            var param_custevent686 = objJson.custevent686; // text // "SONDAS" 
+            var param_custevent687 = objJson.custevent687; // text // "DRENAJES"
+            var param_custevent688 = objJson.custevent688; // text // "MÉDICO RESPONSABLE ANESTESIÓLOGO"
+            var param_custevent689 = objJson.custevent689; // lista // "TIPO DE ANESTESIA"
+            var param_custevent690 = objJson.custevent690; // text // "HORA DE INICIO DE ANESTESIA"
+            var param_custevent694 = objJson.custevent694; // text // "HORA DE TÉRMINO DE ANESTESIA"
+            var param_custevent691 = objJson.custevent691; // text // "MANIOBRA DE INTUBACIÓN"
+            var param_custevent692 = objJson.custevent692; // text // "NÚMERO DE TUBO"
+            var param_custevent693 = objJson.custevent693; // text // "MEDICAMENTOS DE INDUCCIÓN"
+            var param_custevent695 = objJson.custevent695; // text // "REALIZÓ"
+            var param_custevent696 = objJson.custevent696; // text // "REGIÓN"
+            var param_custevent697 = objJson.custevent697; // text // "ANTISÉPTICO"
+            var param_custevent698 = objJson.custevent698; // textArea // "OBSERVACIONES"
+            var param_custevent699 = objJson.custevent699; // text // "CIRUJANO RESPONSABLE (C)"
+            var param_custevent700 = objJson.custevent700; // text // "PRIMER AYUDANTE"
+            var param_custevent701 = objJson.custevent701; // text // "SEGUNDO AYUDANTE"
+            var param_custevent702 = objJson.custevent702; // text // "INSTRUMENTISTA QUIRÚRGICO"
+            var param_custevent703 = objJson.custevent703; // text // "CIRCULANTE"
+            var param_custevent704 = objJson.custevent704; // text // "TIEMPO FUERA"
+            var param_custevent705 = objJson.custevent705; // text // "HORA DE INICIO DE INFILTRACIÓN"
+            var param_custevent706 = objJson.custevent706; // text // "HORA DE TÉRMINO DE INFILTRACIÓN"
+            var param_custevent707 = objJson.custevent707; // text // "HORA DE INICIO DE CIRUGÍA"
+            var param_custevent708 = objJson.custevent708; // text // "HORA DE TÉRMINO DE CIRUGÍA"
+            var param_custevent709 = objJson.custevent709; // text // "CIRUGÍA REALIZADA"
+            var param_custevent710 = objJson.custevent710; // Check // "GASAS (COMPLETO)"
+            var param_custevent711 = objJson.custevent711; // Check // "COMPRESAS (COMPLETO)"
+            var param_custevent712 = objJson.custevent712; // Check // "COTONIODES (COMPLETO)"
+            var param_custevent713 = objJson.custevent713; // Check // "ISOPOS (COMPLETO)"
+            var param_custevent714 = objJson.custevent714; // Check // "AGUJAS HIPODÉRMICAS (COMPLETO)"
+            var param_custevent715 = objJson.custevent715; // Check // "AGUJAS DE SUTURA (COMPLETO)"
+            var param_custevent716 = objJson.custevent716; // Check // "HOJAS DE BISTURÍ (COMPLETO)"
+            var param_custevent717 = objJson.custevent717; // Check // "INSTRUMENTAL (COMPLETO)"
+            var param_custevent718 = objJson.custevent718; // Check // "OTROS (CONTEO)"
+            var param_custevent719 = objJson.custevent719; // textArea // "EQUIPO BIOMÉDICO UTILIZADO"
+            var param_custevent720 = objJson.custevent720; // textArea // "IMPLANTES E INSUMOS EXTRAS"
+            var param_custevent721 = objJson.custevent721; // textArea // "OBSERVACIONES"
+            var param_custevent655 = objJson.custevent655; // text // "MÉDICO CIRUJANO" 
+            var param_custevent656 = objJson.custevent656; // text // "1ER AYUDANTE" 
+            var param_custevent657 = objJson.custevent657; // text // "2DO AYUDANTE" 
+            var param_custevent658 = objJson.custevent658; // text // "MÉDICO ANESTESIÓLOGO" 
+            var param_custevent659 = objJson.custevent659; // text // "ENF. INSTRUMENTISTA" 
+            var param_custevent660 = objJson.custevent660; // text // "ENF. CIRCULANTE" 
+            var param_custevent661 = objJson.custevent661; // textarea // "DIAGNÓSTICO PRE-OPERATORIO" 
+            var param_custevent576 = objJson.custevent576; // textarea // "DIAGNÓSTICO POST-OPERATORIO" 
+            var param_custevent577 = objJson.custevent577; // Lista // "ANESTESIA APLICADA" 
+            var param_custevent662 = objJson.custevent662; // textarea // "NOTA MÉDICA" 
+            var param_custevent794 = objJson.custevent794; // textarea // "CONDICIONES DE LA HERIDA QUIRÚRGICA" 
+            var param_custevent795 = objJson.custevent795; // textarea // "NOTAS DE ENFERMERÍA" 
+            var param_custevent570 = objJson.custevent570; // text // "FECHA Y HORA DE EGRESO" 
+            var param_custevent573 = objJson.custevent573; // textarea // "DIAGNÓSTICO DE EGRESO" 
+            var param_custevent574 = objJson.custevent574; // textarea // "MOTIVO DE EGRESO" 
+            var param_custevent572 = objJson.custevent572; // textarea // "RESUMEN DE LA EVOLUCIÓN Y ESTADO ACTUAL" 
+            var param_custevent575 = objJson.custevent575; // textarea // "PLAN DE MANEJO, TRATAMIENTO Y RECOMENDACIONES" 
+            var param_custevent202 = objJson.custevent202; // multilista // "DR. RESPONSABLE" 
+            var param_custevent197 = objJson.custevent197; // Fecha // "FECHA DE EXPEDICIÓN" 
+            var param_custevent857 = objJson.custevent857; // text // "INDICACIONES" 
+            var param_custevent803 = objJson.custevent803; // Lista // "CLAVE DEL TIPO DE EPISODIO" 
+            var param_custevent804 = objJson.custevent804; // text // "CÉDULA PROFESIONAL DEL MÉDICO RESPONSABLE DEL EPISODIO:" 
+            var param_custevent805 = objJson.custevent805; // text // "NOMBRE DEL MÉDICO RESPONSABLE DEL EPISODIO:" 
+            var param_custevent806 = objJson.custevent806; // text // "PRIMER APELLIDO DEL MÉDICO RESPONSABLE DEL EPISODIO:" 
+            var param_custevent807 = objJson.custevent807; // text // "CLUES DEL ESTABLECIMIENTO RESPONSABLE DEL EPISODIO:" 
+            var param_custevent808 = objJson.custevent808; // text // "LICENCIA SANITARIA DEL ESTABLECIMIENTO RESPONSABLE DEL EPISODIO:" 
+            var param_custevent269 = objJson.custevent269; // text // "FIRMA DEL CLIENTE DE CONSENTIMIENTO INFORMADO"
+
+            // VARIABLES GLOBALES
+            var file_content_image_1 = "";
+            var file_content_image_2 = "";
+            var file_content_image_3 = "";
+            var file_content_image_4 = "";
+            var file_content_image_5 = "";
+            var file_content_image_6 = "";
+            var file_content_image_7 = "";
+            var file_content_image_8 = "";
+            var file_content_image_9 = "";
+            var file_content_image_10 = "";
+            var file_content_image_11 = "";
+            var file_content_image_12 = "";
+            var file_content_image_13 = "";
+            var file_content_image_14 = "";
+            var file_content_image_15 = "";
+            var file_content_firmaCliente = "";
+
+            var obj_case_procedure = record.load({
+                type: "supportcase",
+                id: idProcedure
+            });
+
+            //procedureO ALBYA
+            var field_case_procedure_casenumber = obj_case_procedure.getText({
+                fieldId: "casenumber"
+            });
+            var field_case_procedure_startdate = obj_case_procedure.getText({
+                fieldId: "startdate"
+            });
+            var field_case_procedure_starttime = obj_case_procedure.getText({
+                fieldId: "starttime"
+            });
+            var field_case_procedure_custevent550 = obj_case_procedure.getValue({
+                fieldId: "custevent550"
+            });
+            var field_case_procedure_custevent551 = obj_case_procedure.getValue({
+                fieldId: "custevent551"
+            });
+            var field_case_procedure_custevent552 = obj_case_procedure.getValue({
+                fieldId: "custevent552"
+            });
+            var field_case_procedure_custevent553 = obj_case_procedure.getValue({
+                fieldId: "custevent553"
+            });
+            var field_case_procedure_custevent556 = obj_case_procedure.getValue({
+                fieldId: "custevent556"
+            });
+            var field_case_procedure_custevent557 = obj_case_procedure.getValue({
+                fieldId: "custevent557"
+            });
+            var field_case_procedure_custevent722 = obj_case_procedure.getValue({
+                fieldId: "custevent722"
+            });
+            var field_case_procedure_custevent560 = obj_case_procedure.getValue({
+                fieldId: "custevent560"
+            });
+            var field_case_procedure_custevent725 = obj_case_procedure.getValue({
+                fieldId: "custevent725"
+            });
+            var field_case_procedure_custevent726 = obj_case_procedure.getValue({
+                fieldId: "custevent726"
+            });
+            var field_case_procedure_custevent727 = obj_case_procedure.getValue({
+                fieldId: "custevent727"
+            });
+            var field_case_procedure_custevent723 = obj_case_procedure.getValue({
+                fieldId: "custevent723"
+            });
+            var field_case_procedure_custevent724 = obj_case_procedure.getValue({
+                fieldId: "custevent724"
+            });
+            var field_case_procedure_custevent728 = obj_case_procedure.getValue({
+                fieldId: "custevent728"
+            });
+            var field_case_procedure_custevent729 = obj_case_procedure.getValue({
+                fieldId: "custevent729"
+            });
+            var field_case_procedure_custevent565 = obj_case_procedure.getValue({
+                fieldId: "custevent565"
+            });
+            var field_case_procedure_custevent564 = obj_case_procedure.getValue({
+                fieldId: "custevent564"
+            });
+            var field_case_procedure_custevent730 = obj_case_procedure.getValue({
+                fieldId: "custevent730"
+            });
+            var field_case_procedure_custevent567 = obj_case_procedure.getValue({
+                fieldId: "custevent567"
+            });
+            var field_case_procedure_custevent840 = obj_case_procedure.getValue({
+                fieldId: "custevent840"
+            }) || null;
+            var field_case_procedure_custevent841 = obj_case_procedure.getValue({
+                fieldId: "custevent841"
+            }) || null;
+            var field_case_procedure_custevent842 = obj_case_procedure.getValue({
+                fieldId: "custevent842"
+            }) || null;
+            var field_case_procedure_custevent843 = obj_case_procedure.getValue({
+                fieldId: "custevent843"
+            }) || null;
+            var field_case_procedure_custevent844 = obj_case_procedure.getValue({
+                fieldId: "custevent844"
+            }) || null;
+            var field_case_procedure_custevent845 = obj_case_procedure.getValue({
+                fieldId: "custevent845"
+            }) || null;
+            var field_case_procedure_custevent846 = obj_case_procedure.getValue({
+                fieldId: "custevent846"
+            }) || null;
+            var field_case_procedure_custevent847 = obj_case_procedure.getValue({
+                fieldId: "custevent847"
+            }) || null;
+            var field_case_procedure_custevent848 = obj_case_procedure.getValue({
+                fieldId: "custevent848"
+            }) || null;
+            var field_case_procedure_custevent849 = obj_case_procedure.getValue({
+                fieldId: "custevent849"
+            }) || null;
+            var field_case_procedure_custevent850 = obj_case_procedure.getValue({
+                fieldId: "custevent850"
+            }) || null;
+            var field_case_procedure_custevent851 = obj_case_procedure.getValue({
+                fieldId: "custevent851"
+            }) || null;
+            var field_case_procedure_custevent852 = obj_case_procedure.getValue({
+                fieldId: "custevent852"
+            }) || null;
+            var field_case_procedure_custevent853 = obj_case_procedure.getValue({
+                fieldId: "custevent853"
+            }) || null;
+            var field_case_procedure_custevent854 = obj_case_procedure.getValue({
+                fieldId: "custevent854"
+            }) || null;
+            var field_case_procedure_custevent731 = obj_case_procedure.getText({
+                fieldId: "custevent731"
+            });
+            var field_case_procedure_custevent732 = obj_case_procedure.getText({
+                fieldId: "custevent732"
+            });
+            var field_case_procedure_custevent733 = obj_case_procedure.getText({
+                fieldId: "custevent733"
+            });
+            var field_case_procedure_custevent734 = obj_case_procedure.getText({
+                fieldId: "custevent734"
+            });
+            var field_case_procedure_custevent735 = obj_case_procedure.getText({
+                fieldId: "custevent735"
+            });
+            var field_case_procedure_custevent736 = obj_case_procedure.getText({
+                fieldId: "custevent736"
+            });
+            var field_case_procedure_custevent737 = obj_case_procedure.getText({
+                fieldId: "custevent737"
+            });
+            var field_case_procedure_custevent738 = obj_case_procedure.getText({
+                fieldId: "custevent738"
+            });
+            var field_case_procedure_custevent739 = obj_case_procedure.getText({
+                fieldId: "custevent739"
+            });
+            var field_case_procedure_custevent740 = obj_case_procedure.getText({
+                fieldId: "custevent740"
+            });
+            var field_case_procedure_custevent741 = obj_case_procedure.getText({
+                fieldId: "custevent741"
+            });
+            var field_case_procedure_custevent742 = obj_case_procedure.getText({
+                fieldId: "custevent742"
+            });
+            var field_case_procedure_custevent743 = obj_case_procedure.getText({
+                fieldId: "custevent743"
+            });
+            var field_case_procedure_custevent744 = obj_case_procedure.getText({
+                fieldId: "custevent744"
+            });
+            var field_case_procedure_custevent745 = obj_case_procedure.getText({
+                fieldId: "custevent745"
+            });
+            var field_case_procedure_custevent746 = obj_case_procedure.getText({
+                fieldId: "custevent746"
+            });
+            var field_case_procedure_custevent747 = obj_case_procedure.getText({
+                fieldId: "custevent747"
+            });
+            var field_case_procedure_custevent748 = obj_case_procedure.getText({
+                fieldId: "custevent748"
+            });
+            var field_case_procedure_custevent749 = obj_case_procedure.getText({
+                fieldId: "custevent749"
+            });
+            var field_case_procedure_custevent750 = obj_case_procedure.getText({
+                fieldId: "custevent750"
+            });
+            var field_case_procedure_custevent751 = obj_case_procedure.getText({
+                fieldId: "custevent751"
+            });
+            var field_case_procedure_custevent752 = obj_case_procedure.getText({
+                fieldId: "custevent752"
+            });
+            var field_case_procedure_custevent753 = obj_case_procedure.getText({
+                fieldId: "custevent753"
+            });
+            var field_case_procedure_custevent754 = obj_case_procedure.getText({
+                fieldId: "custevent754"
+            });
+            var field_case_procedure_custevent755 = obj_case_procedure.getText({
+                fieldId: "custevent755"
+            });
+            var field_case_procedure_custevent756 = obj_case_procedure.getText({
+                fieldId: "custevent756"
+            });
+            var field_case_procedure_custevent757 = obj_case_procedure.getText({
+                fieldId: "custevent757"
+            });
+            var field_case_procedure_custevent758 = obj_case_procedure.getText({
+                fieldId: "custevent758"
+            });
+            var field_case_procedure_custevent759 = obj_case_procedure.getText({
+                fieldId: "custevent759"
+            });
+            var field_case_procedure_custevent760 = obj_case_procedure.getText({
+                fieldId: "custevent760"
+            });
+            var field_case_procedure_custevent761 = obj_case_procedure.getText({
+                fieldId: "custevent761"
+            });
+            var field_case_procedure_custevent762 = obj_case_procedure.getText({
+                fieldId: "custevent762"
+            });
+            var field_case_procedure_custevent763 = obj_case_procedure.getText({
+                fieldId: "custevent763"
+            });
+            var field_case_procedure_custevent764 = obj_case_procedure.getText({
+                fieldId: "custevent764"
+            });
+            var field_case_procedure_custevent765 = obj_case_procedure.getValue({
+                fieldId: "custevent765"
+            });
+            var field_case_procedure_custevent766 = obj_case_procedure.getText({
+                fieldId: "custevent766"
+            });
+            var field_case_procedure_custevent767 = obj_case_procedure.getText({
+                fieldId: "custevent767"
+            });
+            var field_case_procedure_custevent768 = obj_case_procedure.getText({
+                fieldId: "custevent768"
+            });
+            var field_case_procedure_custevent769 = obj_case_procedure.getText({
+                fieldId: "custevent769"
+            });
+            var field_case_procedure_custevent770 = obj_case_procedure.getText({
+                fieldId: "custevent770"
+            });
+            var field_case_procedure_custevent771 = obj_case_procedure.getValue({
+                fieldId: "custevent771"
+            });
+            var field_case_procedure_custevent772 = obj_case_procedure.getValue({
+                fieldId: "custevent772"
+            });
+            var field_case_procedure_custevent773 = obj_case_procedure.getText({
+                fieldId: "custevent773"
+            });
+            var field_case_procedure_custevent774 = obj_case_procedure.getValue({
+                fieldId: "custevent774"
+            });
+            var field_case_procedure_custevent775 = obj_case_procedure.getValue({
+                fieldId: "custevent775"
+            });
+            var field_case_procedure_custevent776 = obj_case_procedure.getText({
+                fieldId: "custevent776"
+            });
+            var field_case_procedure_custevent777 = obj_case_procedure.getText({
+                fieldId: "custevent777"
+            });
+            var field_case_procedure_custevent778 = obj_case_procedure.getText({
+                fieldId: "custevent778"
+            });
+            var field_case_procedure_custevent779 = obj_case_procedure.getText({
+                fieldId: "custevent779"
+            });
+            var field_case_procedure_custevent780 = obj_case_procedure.getValue({
+                fieldId: "custevent780"
+            });
+            var field_case_procedure_custevent781 = obj_case_procedure.getText({
+                fieldId: "custevent781"
+            });
+            var field_case_procedure_custevent782 = obj_case_procedure.getText({
+                fieldId: "custevent782"
+            });
+            var field_case_procedure_custevent783 = obj_case_procedure.getText({
+                fieldId: "custevent783"
+            });
+            var field_case_procedure_custevent784 = obj_case_procedure.getText({
+                fieldId: "custevent784"
+            });
+            var field_case_procedure_custevent792 = obj_case_procedure.getValue({
+                fieldId: "custevent792"
+            });
+            var field_case_procedure_custevent793 = obj_case_procedure.getValue({
+                fieldId: "custevent793"
+            });
+            var field_case_procedure_custevent785 = obj_case_procedure.getText({
+                fieldId: "custevent785"
+            });
+            var field_case_procedure_custevent786 = obj_case_procedure.getText({
+                fieldId: "custevent786"
+            });
+            var field_case_procedure_custevent787 = obj_case_procedure.getText({
+                fieldId: "custevent787"
+            });
+            var field_case_procedure_custevent788 = obj_case_procedure.getValue({
+                fieldId: "custevent788"
+            });
+            var field_case_procedure_custevent789 = obj_case_procedure.getText({
+                fieldId: "custevent789"
+            });
+            var field_case_procedure_custevent790 = obj_case_procedure.getText({
+                fieldId: "custevent790"
+            });
+            var field_case_procedure_custevent791 = obj_case_procedure.getText({
+                fieldId: "custevent791"
+            });
+            var field_case_procedure_custevent796 = obj_case_procedure.getText({
+                fieldId: "custevent796"
+            });
+            var field_case_procedure_custevent797 = obj_case_procedure.getText({
+                fieldId: "custevent797"
+            });
+            var field_case_procedure_custevent798 = obj_case_procedure.getText({
+                fieldId: "custevent798"
+            });
+            var field_case_procedure_custevent799 = obj_case_procedure.getText({
+                fieldId: "custevent799"
+            });
+            var field_case_procedure_custevent663 = obj_case_procedure.getValue({
+                fieldId: "custevent663"
+            });
+            var field_case_procedure_custevent664 = obj_case_procedure.getValue({
+                fieldId: "custevent664"
+            });
+            var field_case_procedure_custevent665 = obj_case_procedure.getValue({
+                fieldId: "custevent665"
+            });
+            var field_case_procedure_custevent666 = obj_case_procedure.getValue({
+                fieldId: "custevent666"
+            });
+            var field_case_procedure_custevent667 = obj_case_procedure.getValue({
+                fieldId: "custevent667"
+            });
+            var field_case_procedure_custevent668 = obj_case_procedure.getValue({
+                fieldId: "custevent668"
+            });
+            var field_case_procedure_custevent669 = obj_case_procedure.getValue({
+                fieldId: "custevent669"
+            });
+            var field_case_procedure_custevent670 = obj_case_procedure.getValue({
+                fieldId: "custevent670"
+            });
+            var field_case_procedure_custevent671 = obj_case_procedure.getValue({
+                fieldId: "custevent671"
+            });
+            var field_case_procedure_custevent672 = obj_case_procedure.getValue({
+                fieldId: "custevent672"
+            });
+            var field_case_procedure_custevent673 = obj_case_procedure.getValue({
+                fieldId: "custevent673"
+            });
+            var field_case_procedure_custevent674 = obj_case_procedure.getText({
+                fieldId: "custevent674"
+            });
+            var field_case_procedure_custevent675 = obj_case_procedure.getText({
+                fieldId: "custevent675"
+            });
+            var field_case_procedure_custevent676 = obj_case_procedure.getText({
+                fieldId: "custevent676"
+            });
+            var field_case_procedure_custevent677 = obj_case_procedure.getText({
+                fieldId: "custevent677"
+            });
+            var field_case_procedure_custevent681 = obj_case_procedure.getValue({
+                fieldId: "custevent681"
+            });
+            var field_case_procedure_custevent678 = obj_case_procedure.getText({
+                fieldId: "custevent678"
+            });
+            var field_case_procedure_custevent679 = obj_case_procedure.getText({
+                fieldId: "custevent679"
+            });
+            var field_case_procedure_custevent685 = obj_case_procedure.getText({
+                fieldId: "custevent685"
+            });
+            var field_case_procedure_custevent686 = obj_case_procedure.getText({
+                fieldId: "custevent686"
+            });
+            var field_case_procedure_custevent687 = obj_case_procedure.getText({
+                fieldId: "custevent687"
+            });
+            var field_case_procedure_custevent688 = obj_case_procedure.getText({
+                fieldId: "custevent688"
+            });
+            var field_case_procedure_custevent689 = obj_case_procedure.getValue({
+                fieldId: "custevent689"
+            });
+            var field_case_procedure_custevent690 = obj_case_procedure.getText({
+                fieldId: "custevent690"
+            });
+            var field_case_procedure_custevent694 = obj_case_procedure.getText({
+                fieldId: "custevent694"
+            });
+            var field_case_procedure_custevent691 = obj_case_procedure.getText({
+                fieldId: "custevent691"
+            });
+            var field_case_procedure_custevent692 = obj_case_procedure.getText({
+                fieldId: "custevent692"
+            });
+            var field_case_procedure_custevent693 = obj_case_procedure.getText({
+                fieldId: "custevent693"
+            });
+            var field_case_procedure_custevent695 = obj_case_procedure.getText({
+                fieldId: "custevent695"
+            });
+            var field_case_procedure_custevent696 = obj_case_procedure.getText({
+                fieldId: "custevent696"
+            });
+            var field_case_procedure_custevent697 = obj_case_procedure.getText({
+                fieldId: "custevent697"
+            });
+            var field_case_procedure_custevent698 = obj_case_procedure.getText({
+                fieldId: "custevent698"
+            });
+            var field_case_procedure_custevent699 = obj_case_procedure.getText({
+                fieldId: "custevent699"
+            });
+            var field_case_procedure_custevent700 = obj_case_procedure.getText({
+                fieldId: "custevent700"
+            });
+            var field_case_procedure_custevent701 = obj_case_procedure.getText({
+                fieldId: "custevent701"
+            });
+            var field_case_procedure_custevent702 = obj_case_procedure.getText({
+                fieldId: "custevent702"
+            });
+            var field_case_procedure_custevent703 = obj_case_procedure.getText({
+                fieldId: "custevent703"
+            });
+            var field_case_procedure_custevent704 = obj_case_procedure.getText({
+                fieldId: "custevent704"
+            });
+            var field_case_procedure_custevent705 = obj_case_procedure.getText({
+                fieldId: "custevent705"
+            });
+            var field_case_procedure_custevent706 = obj_case_procedure.getText({
+                fieldId: "custevent706"
+            });
+            var field_case_procedure_custevent707 = obj_case_procedure.getText({
+                fieldId: "custevent707"
+            });
+            var field_case_procedure_custevent708 = obj_case_procedure.getText({
+                fieldId: "custevent708"
+            });
+            var field_case_procedure_custevent709 = obj_case_procedure.getText({
+                fieldId: "custevent709"
+            });
+            var field_case_procedure_custevent710 = obj_case_procedure.getValue({
+                fieldId: "custevent710"
+            });
+            var field_case_procedure_custevent711 = obj_case_procedure.getValue({
+                fieldId: "custevent711"
+            });
+            var field_case_procedure_custevent712 = obj_case_procedure.getValue({
+                fieldId: "custevent712"
+            });
+            var field_case_procedure_custevent713 = obj_case_procedure.getValue({
+                fieldId: "custevent713"
+            });
+            var field_case_procedure_custevent714 = obj_case_procedure.getValue({
+                fieldId: "custevent714"
+            });
+            var field_case_procedure_custevent715 = obj_case_procedure.getValue({
+                fieldId: "custevent715"
+            });
+            var field_case_procedure_custevent716 = obj_case_procedure.getValue({
+                fieldId: "custevent716"
+            });
+            var field_case_procedure_custevent717 = obj_case_procedure.getValue({
+                fieldId: "custevent717"
+            });
+            var field_case_procedure_custevent718 = obj_case_procedure.getValue({
+                fieldId: "custevent718"
+            });
+            var field_case_procedure_custevent719 = obj_case_procedure.getText({
+                fieldId: "custevent719"
+            });
+            var field_case_procedure_custevent720 = obj_case_procedure.getText({
+                fieldId: "custevent720"
+            });
+            var field_case_procedure_custevent721 = obj_case_procedure.getText({
+                fieldId: "custevent721"
+            });
+            var field_case_procedure_custevent655 = obj_case_procedure.getText({
+                fieldId: "custevent655"
+            });
+            var field_case_procedure_custevent656 = obj_case_procedure.getText({
+                fieldId: "custevent656"
+            });
+            var field_case_procedure_custevent657 = obj_case_procedure.getText({
+                fieldId: "custevent657"
+            });
+            var field_case_procedure_custevent658 = obj_case_procedure.getText({
+                fieldId: "custevent658"
+            });
+            var field_case_procedure_custevent659 = obj_case_procedure.getText({
+                fieldId: "custevent659"
+            });
+            var field_case_procedure_custevent660 = obj_case_procedure.getText({
+                fieldId: "custevent660"
+            });
+        
