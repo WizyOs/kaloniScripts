@@ -133,6 +133,46 @@ define(['N/record', 'N/url', 'N/https', 'N/xml', 'N/currentRecord'], function (r
         valURl = url.resolveScript({ scriptId: 'customscript1252', deploymentId: 'customdeploy1', params: { customerId: customerId, recId: recId, parentRecId: parentRecId, review: review, cf: cf, numProc: numProc  } });
         window.open("" + valURl + "", "_blank");
     }
+  
+      function loadimagesSessions(session) {
+        var recId = null;
+        var valURl = null;
+        var currentRec = currentRecord.get();
+        var idRec = currentRec.id;
+        var parentRecId = null;
+        var customerId = null;
+        var numProc = null;
+        var currentUrl = document.location.href;
+        var paramsUrl = new URL(currentUrl);
+        recId = idRec;
+        var rec = record.load({ type: 'supportcase', id: idRec, isDyanmic: false });
+        customerId = rec.getValue({ fieldId: 'company' });
+        parentRecId = rec.getValue({ fieldId: 'custevent_parentrecid'});
+        cf = rec.getValue({ fieldId: 'customform'});
+        numProc = rec.getValue({ fieldId: 'custevent839' });
+        valURl = url.resolveScript({ scriptId: 'customscript1231', deploymentId: 'customdeploy1', params: { customerId: customerId, recId: recId, parentRecId: parentRecId, session: session, cf: cf, numProc: numProc  } });
+        window.open("" + valURl + "", "_blank");
+    }
+
+    function viewimagesSessions(session) {
+        var recId = null;
+        var valURl = null;
+        var currentRec = currentRecord.get();
+        var idRec = currentRec.id;
+        var parentRecId = null;
+        var customerId = null;
+        var numProc = null;
+        var currentUrl = document.location.href;
+        var paramsUrl = new URL(currentUrl);
+        recId = idRec;
+        var rec = record.load({ type: 'supportcase', id: idRec, isDyanmic: false });
+        customerId = rec.getValue({ fieldId: 'company' });
+        parentRecId = rec.getValue({ fieldId: 'custevent_parentrecid'});
+        cf = rec.getValue({ fieldId: 'customform'});
+        numProc = rec.getValue({ fieldId: 'custevent839' });
+        valURl = url.resolveScript({ scriptId: 'customscript1252', deploymentId: 'customdeploy1', params: { customerId: customerId, recId: recId, parentRecId: parentRecId, session: session, cf: cf, numProc: numProc  } });
+        window.open("" + valURl + "", "_blank");
+    }
 
     function cancelSelf() {
         var currentUrl = document.location.href;
