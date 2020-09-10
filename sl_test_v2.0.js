@@ -75,6 +75,7 @@ define(['N/ui/serverWidget', 'N/url', 'N/https', 'N/file', 'N/record', 'N/xml', 
         var nameSearch = recId;
         var filter = '';
         var searchResult = '';
+        var idRootFolder = '';
 
         log.debug('record id', recId + context.request.parameters.review);
 
@@ -104,7 +105,7 @@ define(['N/ui/serverWidget', 'N/url', 'N/https', 'N/file', 'N/record', 'N/xml', 
                 search.createFilter({
                   name: "name",
                   operator: search.Operator.IS,
-                  values: [arr_nameFolderReview[review - 1]],
+                  values: [arr_nameFolderReview[review - 1].index],
                   isor: false
                 }),
                 search.createFilter({

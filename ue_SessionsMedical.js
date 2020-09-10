@@ -1155,7 +1155,7 @@ function beforeLoad(type, form) {
       complementarios2 = form.addSubTab('custpage_complementarios_dos', 'Sesión 2', 'custpage_complementarios_hair');
       complementarios3 = form.addSubTab('custpage_complementarios_tres', 'Sesión 3', 'custpage_complementarios_hair');
       complementarios4 = form.addSubTab('custpage_complementarios_cuatro', 'Sesión 4', 'custpage_complementarios_hair');
-      complementarios5 = form.addSubTab('custpage_complementarios_cinco', 'Sesión 5', 'custpage_complementarios_hair');
+      complementarios5 = form.addSubTab('custpage_complementarios_cinco', 'Sesión 5', 'custpage_complementar706ios_hair');
       complementarios6 = form.addSubTab('custpage_complementarios_seis', 'Sesión 6', 'custpage_complementarios_hair');
       complementarios7 = form.addSubTab('custpage_complementarios_siete', 'Sesión 7', 'custpage_complementarios_hair');
       complementarios8 = form.addSubTab('custpage_complementarios_ocho', 'Sesión 8', 'custpage_complementarios_hair');
@@ -1476,12 +1476,12 @@ function beforeLoad(type, form) {
       button_pintarImagen_closeStatement = ');}finally{ if (!!window) { window.NLScriptIdForLogging = origScriptIdForLogging; window.NLDeploymentIdForLogging = origDeploymentIdForLogging; }} }); return false;"><b>Pintar Imagen</b></button>';
 
       //NOTE: button that redirect to suitlet that let load review images and save it in cabinet
-      var button_load_reviewImages_openStatement = '<button id="printIamges" name="printImages" style="margin:2px;" class="btn btn-primary" onclick="var rConfig = JSON.parse( \'{}\' ) ; rConfig[\'context\'] = \'/SuiteScripts/cs_DiagnosticoCorporal\'; var entryPointRequire = require.config(rConfig); entryPointRequire([\'/SuiteScripts/cs_DiagnosticoCorporal\'], function(mod){ try{ if (!!window) { var origScriptIdForLogging = window.NLScriptIdForLogging; var origDeploymentIdForLogging = window.NLDeploymentIdForLogging; window.NLScriptIdForLogging = \'customscript1179\'; window.NLDeploymentIdForLogging = \'customdeploy1\'; }mod.loadimagesSessions(';
-      var button_load_reviewImages_closeStatement = ');}finally{ if (!!window) { window.NLScriptIdForLogging = origScriptIdForLogging; window.NLDeploymentIdForLogging = origDeploymentIdForLogging; }} }); return false;"><b>Tomar fotografías de revisión</b></button>';
+      var button_load_images_openStatement = '<button id="printIamges" name="printImages" style="margin:2px;" class="btn btn-primary" onclick="var rConfig = JSON.parse( \'{}\' ) ; rConfig[\'context\'] = \'/SuiteScripts/cs_DiagnosticoCorporal\'; var entryPointRequire = require.config(rConfig); entryPointRequire([\'/SuiteScripts/cs_DiagnosticoCorporal\'], function(mod){ try{ if (!!window) { var origScriptIdForLogging = window.NLScriptIdForLogging; var origDeploymentIdForLogging = window.NLDeploymentIdForLogging; window.NLScriptIdForLogging = \'customscript1179\'; window.NLDeploymentIdForLogging = \'customdeploy1\'; }mod.loadimagesSessions(';
+      var button_load_images_closeStatement = ');}finally{ if (!!window) { window.NLScriptIdForLogging = origScriptIdForLogging; window.NLDeploymentIdForLogging = origDeploymentIdForLogging; }} }); return false;"><b>Tomar fotografías de revisión</b></button>';
 
       //NOTE: button that redirect to suitelet that let visulize the review images
-      var button_view_reviewImages_openStatement = '<button id="printIamges" name="printImages" style="margin:2px;" class="btn btn-primary" onclick="var rConfig = JSON.parse( \'{}\' ) ; rConfig[\'context\'] = \'/SuiteScripts/cs_DiagnosticoCorporal\'; var entryPointRequire = require.config(rConfig); entryPointRequire([\'/SuiteScripts/cs_DiagnosticoCorporal\'], function(mod){ try{ if (!!window) { var origScriptIdForLogging = window.NLScriptIdForLogging; var origDeploymentIdForLogging = window.NLDeploymentIdForLogging; window.NLScriptIdForLogging = \'customscript1179\'; window.NLDeploymentIdForLogging = \'customdeploy1\'; }mod.viewimagesSessions(';
-      var button_view_reviewImages_closeStatement = ');}finally{ if (!!window) { window.NLScriptIdForLogging = origScriptIdForLogging; window.NLDeploymentIdForLogging = origDeploymentIdForLogging; }} }); return false;"><b>Ver fotografías</b></button>';
+      var button_view_images_openStatement = '<button id="printIamges" name="printImages" style="margin:2px;" class="btn btn-primary" onclick="var rConfig = JSON.parse( \'{}\' ) ; rConfig[\'context\'] = \'/SuiteScripts/cs_DiagnosticoCorporal\'; var entryPointRequire = require.config(rConfig); entryPointRequire([\'/SuiteScripts/cs_DiagnosticoCorporal\'], function(mod){ try{ if (!!window) { var origScriptIdForLogging = window.NLScriptIdForLogging; var origDeploymentIdForLogging = window.NLDeploymentIdForLogging; window.NLScriptIdForLogging = \'customscript1179\'; window.NLDeploymentIdForLogging = \'customdeploy1\'; }mod.viewimagesSessions(';
+      var button_view_images_closeStatement = ');}finally{ if (!!window) { window.NLScriptIdForLogging = origScriptIdForLogging; window.NLDeploymentIdForLogging = origDeploymentIdForLogging; }} }); return false;"><b>Ver fotografías</b></button>';
 
       //ACTION: Creacion de Campos personalizados
       //NOTE: Campos complementarios 1
@@ -1509,8 +1509,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_1_custevent1069', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios1').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios1) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_1', 'inlinehtml', '', null, 'group_responsables_complementarios1').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 1 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_1', 'inlinehtml', '', null, 'group_responsables_complementarios1').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 1 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_1', 'inlinehtml', '', null, 'group_responsables_complementarios1').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 1 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_1', 'inlinehtml', '', null, 'group_responsables_complementarios1').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 1 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 2         
@@ -1542,8 +1542,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_2_custevent1070', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios2').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios2) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_2', 'inlinehtml', '', null, 'group_responsables_complementarios2').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 2 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_2', 'inlinehtml', '', null, 'group_responsables_complementarios2').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 2 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_2', 'inlinehtml', '', null, 'group_responsables_complementarios2').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 2 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_2', 'inlinehtml', '', null, 'group_responsables_complementarios2').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 2 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 3
@@ -1575,8 +1575,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_3_custevent1071', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios3').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios3) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_3', 'inlinehtml', '', null, 'group_responsables_complementarios3').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 3 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_3', 'inlinehtml', '', null, 'group_responsables_complementarios3').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 3 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_3', 'inlinehtml', '', null, 'group_responsables_complementarios3').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 3 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_3', 'inlinehtml', '', null, 'group_responsables_complementarios3').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 3 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 4
@@ -1608,8 +1608,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_4_custevent1072', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios4').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios4) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_4', 'inlinehtml', '', null, 'group_responsables_complementarios4').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 4 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_4', 'inlinehtml', '', null, 'group_responsables_complementarios4').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 4 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_4', 'inlinehtml', '', null, 'group_responsables_complementarios4').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 4 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_4', 'inlinehtml', '', null, 'group_responsables_complementarios4').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 4 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 5
@@ -1641,8 +1641,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_5_custevent1073', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios5').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios5) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_5', 'inlinehtml', '', null, 'group_responsables_complementarios5').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 5 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_5', 'inlinehtml', '', null, 'group_responsables_complementarios5').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 5 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_5', 'inlinehtml', '', null, 'group_responsables_complementarios5').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 5 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_5', 'inlinehtml', '', null, 'group_responsables_complementarios5').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 5 + button_view_images_closeStatement);
       }
       //NOTE: Campos complementarios 6
       if (campo_2_complementarios5 != null) {
@@ -1673,8 +1673,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_6_custevent1074', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios6').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios6) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_6', 'inlinehtml', '', null, 'group_responsables_complementarios6').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 6 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_6', 'inlinehtml', '', null, 'group_responsables_complementarios6').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 6 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_6', 'inlinehtml', '', null, 'group_responsables_complementarios6').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 6 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_6', 'inlinehtml', '', null, 'group_responsables_complementarios6').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 6 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 7
@@ -1706,8 +1706,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_7_custevent1075', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios7').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios7) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_7', 'inlinehtml', '', null, 'group_responsables_complementarios7').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 7 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_7', 'inlinehtml', '', null, 'group_responsables_complementarios7').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 7 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_7', 'inlinehtml', '', null, 'group_responsables_complementarios7').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 7 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_7', 'inlinehtml', '', null, 'group_responsables_complementarios7').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 7 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 8
@@ -1739,8 +1739,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_8_custevent1076', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios8').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios8) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_8', 'inlinehtml', '', null, 'group_responsables_complementarios8').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 8 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_8', 'inlinehtml', '', null, 'group_responsables_complementarios8').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 8 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_8', 'inlinehtml', '', null, 'group_responsables_complementarios8').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 8 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_8', 'inlinehtml', '', null, 'group_responsables_complementarios8').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 8 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 9
@@ -1772,8 +1772,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_9_custevent1077', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios9').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios9) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_9', 'inlinehtml', '', null, 'group_responsables_complementarios9').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 9 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_9', 'inlinehtml', '', null, 'group_responsables_complementarios9').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 9 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_9', 'inlinehtml', '', null, 'group_responsables_complementarios9').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 9 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_9', 'inlinehtml', '', null, 'group_responsables_complementarios9').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 9 + button_view_images_closeStatement);
       }
 
       //NOTE: Campos complementarios 10
@@ -1805,8 +1805,8 @@ function beforeLoad(type, form) {
         } else {
           form.addField('custpage_field_printimage_complementarios_10_custevent1078', 'inlinehtml', etiqueta_campo_16, null, 'group_printimages_complementarios10').setDisplayType('inline').setDisplayType('readonly').setDefaultValue('<img src="' + nlapiEscapeXML(campo_16_complementarios10) + '" alt="" width="280px" />');
         }
-        form.addField('custpage_button_take_snapshot_complementarios_10', 'inlinehtml', '', null, 'group_responsables_complementarios10').setDisplayType('inline').setDefaultValue(button_load_reviewImages_openStatement + 10 + button_load_reviewImages_closeStatement);
-        form.addField('custpage_button_view_snapshot_complementarios_10', 'inlinehtml', '', null, 'group_responsables_complementarios10').setDisplayType('inline').setDefaultValue(button_view_reviewImages_openStatement + 1 + button_view_reviewImages_closeStatement);
+        form.addField('custpage_button_take_snapshot_complementarios_10', 'inlinehtml', '', null, 'group_responsables_complementarios10').setDisplayType('inline').setDefaultValue(button_load_images_openStatement + 10 + button_load_images_closeStatement);
+        form.addField('custpage_button_view_snapshot_complementarios_10', 'inlinehtml', '', null, 'group_responsables_complementarios10').setDisplayType('inline').setDefaultValue(button_view_images_openStatement + 1 + button_view_images_closeStatement);
       }
 
       //ACTION: Recupera valor de campos complementarios 1 y los despliega

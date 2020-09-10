@@ -225,6 +225,8 @@ define(['N/record', 'N/url', 'N/https', 'N/xml', 'N/currentRecord'], function (r
         loadimages: loadimages,
         loadimagesReviews: loadimagesReviews,
         viewimagesReviews: viewimagesReviews,
+        loadimagesSessions: loadimagesSessions,
+        viewimagesSessions: viewimagesSessions,
         cancelSelf: cancelSelf
         //reduceimages: reduceimages
         //firmaMedicoDiagnostico: firmaMedicoDiagnostico
