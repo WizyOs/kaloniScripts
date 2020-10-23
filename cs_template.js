@@ -6,8 +6,8 @@
 
 define([],
     function(){
-        function pageInit() {
-
+        function pageInit(context) {
+            log.debug("prueba context",context);
         }
         function lineInit() {
 

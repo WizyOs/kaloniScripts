@@ -7,6 +7,7 @@ define(['N/record', 'N/log', 'N/runtime'], function (record, log, runtime) {
 
     function pageInit(context) {
         log.debug('context portlet', context);
+        alert("Corre");
     }
 
     return {

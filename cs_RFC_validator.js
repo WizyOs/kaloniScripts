@@ -1,21 +1,22 @@
-/**
- * @NApiVersion 2.0
- * @NScriptType ClientScript
- * @NModuleScope SameAccount
- */
+	/**
+	* @NApiVersion 2.x
+	* @NScriptType ClientScript
+	* @NModuleScope SameAccount
+	*/
 
 define(['N/currentRecord', 'N/log', 'N/ui/dialog'],
     function (currentRecord, log, dialog) {
         var record = currentRecord.get();
 
         function pageInit(context) { // {"currentRecord":{"id":"","type":"invoice","isDynamic":true},"mode":"copy or create or edit"}
-
+            log.debug('Contexto en cambio',context);
         }
 
         function fieldChanged(context) {
-            log.debug('Contexto en cambio',context);
-            if (context.currentRecord.type === 'invoice') {
-                if (context.fieldId === 'custbody_cfdi_rfc') {
+            
+            //if (context.currentRecord.type === 'invoice') {
+                log.debug("",record.getValue('customform'));
+                if (context.fieldId == 'custbody_cfdi_rfc') {
                     var rfc_text = record.getText('custbody_cfdi_rfc');
                     var rfc_validate = validarInput(rfc_text);
                     log.debug('Contexto', rfc_validate);
@@ -31,7 +32,7 @@ define(['N/currentRecord', 'N/log', 'N/ui/dialog'],
                         dialog.alert(options);
                     }
                 }
-            }
+            //}
         }
 
         return {
