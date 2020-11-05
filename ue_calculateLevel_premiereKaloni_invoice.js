@@ -10,7 +10,10 @@ define(['N/record', 'N/file', 'N/ui/serverWidget', 'N/log', 'N/search', 'N/curre
 
         log.debug("contextoInvoice", context);
 
-        var idCustomer = context.request.parameters.entity;
+        context = JSON.parse(JSON.stringify(context));
+
+        var idCustomer = context.newRecord.fields.entity;
+        var totalFacturas = 0;
 
         var searchCreate_VentaKaloni = search.create({
             "type": "transaction",
@@ -111,6 +114,13 @@ define(['N/record', 'N/file', 'N/ui/serverWidget', 'N/log', 'N/search', 'N/curre
                     "sortdir": "NONE"
                 },
                 {
+                    "name": "grossamount",
+                    "summary": "SUM",
+                    "label": "Importe (bruto)",
+                    "type": "currency",
+                    "sortdir": "NONE"
+                },
+                {
                     "name": "internalid",
                     "summary": "COUNT",
                     "label": "Internal ID",
@@ -127,16 +137,20 @@ define(['N/record', 'N/file', 'N/ui/serverWidget', 'N/log', 'N/search', 'N/curre
 
         var searchResult_ventaKaloni = searchCreate_VentaKaloni.run().getRange({
             start: 0,
-            end: 1
+            end: 1000
         });
 
-        var obj_searchResult_ventaKaloni = JSON.parse(JSON.stringify(searchResult_ventaKaloni));
-
         if (searchResult_ventaKaloni.length > 0) {
+            var obj_searchResult_ventaKaloni = JSON.parse(JSON.stringify(searchResult_ventaKaloni));
             log.debug("Total Factura", obj_searchResult_ventaKaloni);
-            var totalFacturas = parseInt(obj_searchResult_ventaKaloni[0].values["SUM(netamountnotax)"]);
             log.debug("Total Importe", totalFacturas);
             var id_selectLevel;
+
+            for (var si in obj_searchResult_ventaKaloni) {
+                if (obj_searchResult_ventaKaloni[si].values["SUM(grossamount)"] !== ".00") {
+                    totalFacturas += parseFloat(obj_searchResult_ventaKaloni[si].values["SUM(grossamount)"]);
+                }
+            }
 
             var obj_customer = record.load({
                 type: record.Type.CUSTOMER,
